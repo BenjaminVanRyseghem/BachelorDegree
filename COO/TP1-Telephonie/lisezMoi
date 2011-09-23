@@ -1,0 +1,8 @@
+Benjamin Van Ryseghem
+
+Execution command: 
+	java -jar Telephonie.jar 
+
+Sum up:
+
+je pense que tout fonctionne, en tout cas, tous les cas proposés par la classe Simulation sont couvert. J'ai d'ailleurs rajouter quelques instructions à la fin du main afin de vérifier l'exception levée quand la carte pré payée n'est plus valide 

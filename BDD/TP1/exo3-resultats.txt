@@ -1,0 +1,166 @@
+(exo 3. 1)
+
+temp1(ANOM:VARCHAR)
+
+Number of tuples = 8
+Left Handed Toaster Cover:
+Smoke Shifter End:
+Acme Widget Washer:
+Brake for Crop Circles Sticker:
+Anti-Gravity Turbine Generator:
+Fire Hydrant Cap:
+7 Segment Display:
+Ferrari:
+
+
+(***********************************************************)
+(exo 3. 2)
+
+temp2(ANOM:VARCHAR,PRIX:DECIMAL,FNOM:VARCHAR)
+
+Number of tuples = 17
+Left Handed Toaster Cover:36.1:kiventout:
+Left Handed Toaster Cover:16.5:Big Red Tool and Die:
+Smoke Shifter End:42.3:kiventout:
+Acme Widget Washer:15.3:kiventout:
+Acme Widget Washer:20.5:kiventout:
+Acme Widget Washer:57.3:Alien Aircaft Inc.:
+Brake for Crop Circles Sticker:20.5:kiventout:
+Brake for Crop Circles Sticker:22.2:Alien Aircaft Inc.:
+Anti-Gravity Turbine Generator:124.23:kiventout:
+Anti-Gravity Turbine Generator:0.55:Big Red Tool and Die:
+Fire Hydrant Cap:11.7:kiventout:
+Fire Hydrant Cap:7.95:Big Red Tool and Die:
+Fire Hydrant Cap:12.5:Perfunctory Parts:
+Fire Hydrant Cap:48.6:Alien Aircaft Inc.:
+7 Segment Display:75.2:kiventout:
+7 Segment Display:1.0:Perfunctory Parts:
+Ferrari:234555.67:Autolux:
+
+
+(***********************************************************)
+(exo 3.3)
+
+temp2(FID:INTEGER)
+
+Number of tuples = 5
+1:
+2:
+3:
+4:
+5:
+
+
+(***********************************************************)
+(exo 3.4 )
+
+
+temp3(FNOM:VARCHAR,FAD:VARCHAR)
+
+Number of tuples = 3
+kiventout:Paris:
+Big Red Tool and Die:Bermuda Shorts:
+Perfunctory Parts:Terra Del Fuego:
+
+
+(***********************************************************)
+(exo 3. 5)
+temp3(FID:INTEGER)
+
+Number of tuples = 1
+5:
+
+
+
+(***********************************************************)
+(exo 3. 6)
+
+temp5(FNOM:VARCHAR,FAD:VARCHAR)
+
+Number of tuples = 1
+Autolux:Milano:
+
+
+(***********************************************************)
+(exo 3. 7)
+
+temp4(temp1.AID:INTEGER,temp3.AID:INTEGER)
+
+Number of tuples = 8
+9:1:
+9:3:
+9:8:
+9:11:
+10:1:
+10:3:
+10:8:
+10:11:
+
+(***********************************************************)
+(exo 3. 8)
+
+temp2(AID:INTEGER)
+
+Number of tuples = 1
+10:
+
+(***********************************************************)
+(exo 3. 9)
+
+temp4(ANOM:VARCHAR)
+
+Number of tuples = 1
+Microsd Card USB Reader:
+
+(***********************************************************)
+(exo 3. 10)
+
+temp6(FID:INTEGER)
+
+Number of tuples = 2
+1:
+3:
+
+(***********************************************************)
+(exo 3. 11)
+
+temp3(FNOM:VARCHAR)
+
+Number of tuples = 1
+kiventout:
+
+
+(***********************************************************)
+(exo 3. 12)
+
+temp3(AID:INTEGER,FID:INTEGER)
+
+Number of tuples = 14
+1:1:
+4:1:
+5:1:
+7:1:
+8:1:
+9:1:
+1:2:
+7:2:
+8:2:
+8:3:
+9:3:
+4:4:
+5:4:
+8:4:
+
+
+(***********************************************************)
+(exo 3. 13)
+
+temp8(FID:INTEGER)
+
+Number of tuples = 3
+2:
+3:
+5:
+
+
+

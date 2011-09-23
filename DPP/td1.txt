@@ -1,0 +1,28 @@
+DPP - 19 Septembre 2011
+Maude Pupin
+
+
+-------------------------------------------------------------------------
+
+DPP = Détermination du Projet Professionel
+
+CV + Lettre de motivation
+20 Octobre journée des métiers
+
+-------------------------------------------------------------------------
+
+JOURNÉE DE CONFÉRENCE - AS2I
+
+	- 3 amphis en parallele
+	- chaque conférence est donnée le matin et l'après midi
+	- 10 domaines "métiers" (PICK 3)
+		- ERP/PGI -> iAGL/MIAGE
+		+ Informatique embarqué -> TIIR / e-Service ?
+		- Informatique de gestion -> MIAGE
+		- Infogérance -> TIIR
+		- Informatique industrielle -> ...
+		- Infrastructure -> TIIR
+		- Web -> e-Service
+		+ Décisionnel -> MOCAD
+		+ Sécurité -> TIIR
+		- Assistance maitrise ouvrage / Architecte métier -> iAGL/MIAGE

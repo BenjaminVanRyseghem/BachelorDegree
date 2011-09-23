@@ -1,0 +1,138 @@
+\documentclass[a4paper,10pt]{article}
+\include{amsymb}
+\include{marvosym}
+\begin{document}
+
+\section{Exercice 1}
+
+\paragraph{1.1:}
+$\Pi_{fnom}$(Fournisseurs)
+
+\paragraph{1.2:}
+$\sigma_{fad='Paris'}$(Fournisseurs)
+
+\paragraph{1.3:}
+$\Pi_{fnom}$($\sigma_{fad='Paris'}$(Fournisseurs))
+
+\paragraph{1.4:}
+$\Pi_{anom}$($\sigma_{acoul='vert'}$(Articles))
+
+\paragraph{1.5:}
+
+$\Pi_{aid}$($\sigma_{prix < 20 }$(Catalogue))
+
+\paragraph{1.6:}
+
+$\Pi_{fid}$($\sigma_{prix < 20 }$(Catalogue))
+
+\paragraph{1.7:}
+
+$\Pi_{fid}$($\sigma_{prix > 10 \mbox{AND} prix < 20 }$(Catalogue))
+
+\paragraph{1.8:}
+
+$\Pi_{fid}$($\sigma_{prix > 10 }$(Catalogue)) $\cap$ $\Pi_{fid}$($\sigma_{prix < 20 }$(Catalogue))
+
+\paragraph{1.9:}
+
+\begin{itemize}
+	\item	$\Pi_{anom}$($\sigma_{acoul = 'vert' }$(Articles)) $\cup$ $\Pi_{anom}$($\sigma_{acoul = 'rouge' }$(Articles))
+\par
+	\item $\Pi_{anom}$($\sigma_{acoul = 'vert'  \mbox{OR} acoul= 'rouge' }$(Articles))
+\end{itemize}
+
+\paragraph{1.10:}
+
+\begin{itemize}
+	\item	$\Pi_{anom}$($\sigma_{acoul = 'vert' }$(Articles)) $\cap$ $\Pi_{anom}$($\sigma_{acoul = 'rouge' }$(Articles))
+\par
+	\item $\Pi_{anom}$($\sigma_{acoul = 'vert'  \mbox{AND} acoul= 'rouge' }$(Articles))
+\end{itemize}
+
+\section{Exercice 2}
+
+\paragraph{2.1:}
+L'ensemble des \emph{fnom} (nom des fournisseurs) vendant des articles rouges \`{a} un prix inf\'{e}rieur \`{a} 100.
+
+\paragraph{2.2:}
+
+L'ensemble des \emph{fnom} (nom des fournisseurs) vendant des articles rouges ou verts \`{a} un prix inf\'{e}rieur \`{a} 100.
+
+\section{Exercice 3}
+
+\paragraph{3.1:}
+$\Pi_{anom}$($\Pi_{aid,anom}$(Articles) $\bowtie$ $\Pi_{aid}$(Catalogue))
+
+\paragraph{3.2:}
+$\Pi_{anom,prix,fnom}$(Catalogue $\bowtie$ $\Pi_{aid,anom}$(Articles) $\bowtie$ $\Pi_{fid,fnom}$(Fournisseurs))
+
+\paragraph{3.3:}
+$\Pi_{fid}$(($\Pi_{aid}$($\sigma_{acoul='rouge'}$(Articles)) $\bowtie$ $\Pi_{fid, aid}$(Catalogue)))
+
+\paragraph{3.4:}
+$\Pi_{fnom}$(
+	$\Pi_{fid}$($\sigma_{prix < 20}$(Catalogue))
+	$\bowtie_{=fid}$ 
+	$\Pi_{fid,fnom}$(Fournisseurs)
+)
+
+\paragraph{3.5}
+$\Pi_{fid}$($\sigma_{prix>10000}$(Catalogue)) -  $\Pi_{fid}$($\sigma_{prix\leq10000}$(Catalogue))
+
+\paragraph{3.6}
+$\Pi_{fnom, fadr}$(
+	(
+	$\Pi_{fid}$($\sigma_{prix>10000}$(Catalogue)) -  $\Pi_{fid}$($\sigma_{prix \leq 10000}$(Catalogue))
+	)
+	$\bowtie$
+	Fournisseurs
+)
+
+\paragraph{3.7}
+$\Pi_{aid}$($\sigma_{acoul='vert'}$(Articles))
+$\times$
+$\Pi_{aid}$($\sigma_{acoul='rouge'}$(Articles))
+
+\paragraph{3.8}
+$\Pi_{aid}$(Articles) - $\Pi_{aid}$(Catalogue)
+
+\paragraph{3.9}
+$\Pi_{fnom}$
+(($\Pi_{aid}$(Articles) - $\Pi_{aid}$(Catalogue))
+$\bowtie$
+Fournisseurs)
+
+\paragraph{3.10}
+
+$\sigma_{fid}$($\Pi_{aid}$($\sigma_{acoul='rouge'}$(Articles)) 
+$\bowtie$
+$\Pi_{fid,aid}$(Catalogue))
+$\cap$
+$\sigma_{fid}$($\Pi_{aid}$($\sigma_{acoul='vert'}$(Articles)) 
+$\bowtie$
+$\Pi_{fid,aid}$(Catalogue))
+
+\paragraph{3.11}
+
+$\Pi_{fnom}$((($\Pi_{aid}$($\sigma_{acoul='noir'}$(Articles))
+$\bowtie$
+$\Pi_{fid,aid}$(Catalogue)))
+$\bowtie$
+$\Pi_{fid, fnom}$(Fournisseurs))
+
+
+\paragraph{3.12}
+
+$\sigma_{a.aid=b.aid AND a.fid <> b.fid }$(Catalogue AS a $\times$ Catalogue AS b)
+
+
+\paragraph{3.13}
+
+$\Pi_{fid}$(Fournisseurs)
+$-$
+$\Pi_{fid}$(($\Pi_{aid}$($\sigma_{acoul='noir' OR acoul='argent'}$(Articles))
+$\bowtie$
+$\Pi_{fid, aid}$(Catalogue))
+
+\Mundo
+\end{document}

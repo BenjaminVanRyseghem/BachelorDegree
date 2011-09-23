@@ -1,0 +1,111 @@
+Query 1: Retrieve the name and address of employees who work for the "Research" department.
+
+project[fname,lname,address](
+  (rename[dname,dno,mgrssn,mgrstartdate](
+      select[dname='Research'](department)) 
+   join 
+   employee
+  )
+);
+
+Query 2: For every project located in "Stafford", list the project number, the 
+controlling department number, and the department manager's last name, address, 
+and birth date.
+
+project[pnumber,dnum,lname,address,bdate](
+  (
+   (select[plocation='Stafford'](projects) 
+    join 
+    rename[dname,dnum,ssn,mgrstartdate](department)
+   )
+   join employee
+  )
+);
+
+Query 3: Find the names of employees who work on all the projects controlled by 
+department number 5.
+
+project[lname,fname](
+ (employee
+  join
+  (project[ssn](employee)
+   minus
+   project[ssn](
+    (
+      (project[ssn](employee) 
+       times  
+       project[pnumber](select[dnum=5](projects))
+      )
+      minus
+      rename[ssn,pnumber](project[essn,pno](works_on))
+    )
+   )
+  )
+ )
+);
+
+Query 4: Make a list of project numbers for projects that involve an employee whose 
+last name is "Smith", either as a worker or as a manager of the department that 
+controls the project.
+
+( project[pno](
+   (rename[essn](project[ssn](select[lname='Smith'](employee))) 
+    join 
+    works_on
+   )
+  )
+ union
+  project[pnumber](
+   ( rename[dnum](project[dnumber](select[lname='Smith'](
+       (employee 
+        join   
+        rename[dname,dnumber,ssn,mgrstartdate](department)
+       )
+       )
+       )
+     ) 
+     join 
+     projects
+    )
+  )
+);
+
+Query 5: List the names of all employees with two or more dependents.
+
+project[lname,fname](
+(rename[ssn](
+ project[essn1](
+  select[essn1=essn2 and dname1<>dname2](
+   (rename[essn1,dname1](project[essn,dependent_name](dependent))
+    times
+    rename[essn2,dname2](project[essn,dependent_name](dependent)))
+   )
+  )
+ )
+join
+employee)
+);
+
+Query 6: Retrieve the names of employees who have no dependents.
+
+project[lname,fname](
+ ( ( project[ssn](employee) 
+     minus project[essn](dependent)
+   ) 
+   join 
+   employee
+ )
+);
+
+Query 7: List the names of managers who have at least one dependent.
+
+project[lname,fname](
+  ((rename[ssn](project[mgrssn](department))
+    join
+    rename[ssn](project[essn](dependent))
+   )
+  join
+  employee
+  )
+);
+

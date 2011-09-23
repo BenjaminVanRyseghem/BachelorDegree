@@ -1,0 +1,80 @@
+select[name='Celine']student;
+
+-> erreur syntaxique. il faut ajouter des parentheses!
+
+select[name='Celine'](student);
+
+
+select[major='Inf'](student);
+
+select[major='Inf' and city='Lille'](student);
+
+-> des operateurs booleens, uniquement AND est implanté dans RA.
+
+
+project[name,major](student);
+
+-> dans la requete suivante, observez l'elimination des doublons:
+project[major](student);
+
+-> renommage: RA n'offre que le renommage d'attributs, pas de relations.
+-> donc, nous ne pouvons pas introduire GEEK et CHTIS vu en cours.
+
+-> union
+
+select[major='Inf'](student) 
+union 
+select[city='Lille'](student);
+
+-> notez que, ici encore,  (415,Celine,Lille,Inf) n'apparait qu'une seule fois, alors qu'elle fait part des deux relations
+-> encore: pas de doublons, puisqu'en algebre, nous considerons des ENSEMBLES (chaque element n'apparait qu'une fois)
+
+-> observons la commutativite: 
+select[city='Lille'](student)
+union
+select[major='Inf'](student) ;
+
+-> dans la logique ensemblistes, les resultats sont equivalents. les elements d'un ensemble ne sont pas ordonnes. 
+
+--> regardons ce que signifie la COMPATIBILITE de tableaux: ici, nous voulons faire l'union de deux tableaux.
+
+project[city](student) union project[sid](student);
+-> expliquez la reponse du systeme.
+
+* DIFFERENCE:
+
+select[major='Inf'](student) 
+minus
+select[city='Lille'](student);
+
+-> expliquez en francais!
+
+
+-> expliquez pourquoi le suivant donne un autre resultat:
+
+select[city='Lille'](student)
+minus
+select[major='Inf'](student) ;
+
+* intersection
+
+select[city='Lille'](student)
+intersect
+select[major='Inf'](student) ;
+
+
+* produit cartesien
+
+student times exam;
+
+* jointure
+
+student join exam;
+
+
+* pour obtenir le meme resultat sans jointure dans RA, qui n'implement pas le renommage de tableaux ni permet l'utilisation de la notation poitillee, il faut une astuce.
+
+student times rename[esid,class,date,grade](exam);
+
+select[sid=esid](student times rename[esid,class,date,grade](exam));
+
