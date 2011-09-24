@@ -2,6 +2,7 @@ package planningMaster;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,14 +19,33 @@ public class GenerationLatexPlanningMaster {
 	private static final String heureAndMinute = heure+"h"+minute;
 	private static final String nom = "[A-z][a-z]*";
 	private static final String phrase= mot+"("+mot+"|\\s|\\p{Punct})*";
-	private static final String options = phrase + "(,"+espace+phrase+")*";
+	private static final String options = phrase + "(?:,"+espace+phrase+")*";
 	
     // lit le planning ligne par ligne
     private LectureLigne lecteurDeLigne;
     // ecrit le planning Latex
     private EcritureTexte ecrivainLatex;
     protected String masterName, date, room;
-    protected Pattern masterNamePattern, datePattern, roomPattern, descriptionPattern, emptyStringPattern;
+    protected Pattern masterNamePattern, datePattern, roomPattern, descriptionPattern, emptyStringPattern, petitePausePattern, grandePausePattern;
+    
+    
+    
+    /* *************************************************
+     * 
+     * 				MOT CLES DU DSL
+     * 
+     ************************************************ */
+    
+    protected String masterString = "master";
+    protected String dateString = "date";
+    protected String salleString = "salle";
+    protected String separatorString = ";";
+    protected String petitePauseString = "petitePause";
+    protected String grandePauseString = "grandePause";
+    
+    protected ArrayList<String> fileNames = new ArrayList<String>();
+    
+    
    
 
     /** Seule "l'entree" est fournie au generateur a la construction.
@@ -34,11 +54,13 @@ public class GenerationLatexPlanningMaster {
      */
     public GenerationLatexPlanningMaster(LectureLigne in) {
     	this.lecteurDeLigne = in;
-		masterNamePattern = Pattern.compile("master"+espace+"("+mot+")"+espaces);
-		datePattern = Pattern.compile("date"+espace+"("+jour+espace+mot+espace+annee+")"+espaces);
-	    roomPattern = Pattern.compile("salle\\s+([A-Z]\\d{2})");
-	    descriptionPattern = Pattern.compile(espaces+"("+heureAndMinute+")-("+heureAndMinute+")"+espace+";"+espace+"(("+nom+espace+")+"+nom+")?"+espaces+";"+espace+"("+phrase+")?"+espaces+";"+espaces+"("+options+")?"+espaces);
+		masterNamePattern = Pattern.compile(masterString+espace+"("+mot+")"+espaces);
+		datePattern = Pattern.compile(dateString+espace+"("+jour+espace+mot+espace+annee+")"+espaces);
+	    roomPattern = Pattern.compile(salleString+"\\s+([A-Z]\\d{2})");
+	    descriptionPattern = Pattern.compile(espaces+"("+heureAndMinute+")-("+heureAndMinute+")"+espace+separatorString+espace+"(("+nom+espace+")+"+nom+")?"+espaces+separatorString+espace+"("+mot+"(\\s+\\p{L}+)*)?"+espaces+separatorString+espaces+"("+options+")?"+espaces);
 	    emptyStringPattern = Pattern.compile(espaces);
+	    petitePausePattern = Pattern.compile(espaces+petitePauseString+espaces);
+	    grandePausePattern = Pattern.compile(espaces+grandePauseString+espaces);
     }
 
     /** Fixe l'objet ds lequel ecrire. */
@@ -68,20 +90,20 @@ public class GenerationLatexPlanningMaster {
     	matcher = masterNamePattern.matcher(ligne);
     	if(matcher.matches()){
     		// line which define the master's name
-    		masterName = matcher.group(1);
+    		this.setMasterName(matcher.group(1));
     		return;	
     	}
     	
     	matcher = datePattern.matcher(ligne);
     	if(matcher.matches()){
     		// line which define the date of the presentation
-    		date = matcher.group(1);
+    		this.setDate(matcher.group(1));
     		return;	
     	}
     	matcher = roomPattern.matcher(ligne);
     	if(matcher.matches()){
     		// line which define the date of the presentation
-    		room = matcher.group(1);
+    		this.setRoom(matcher.group(1));
     		return;	
     	}
     	
@@ -90,19 +112,89 @@ public class GenerationLatexPlanningMaster {
     		// line which define the date of the presentation
     		if(this.ecrivainLatex != null){
     			this.ecrireLigneTableau(matcher.group(1), matcher.group(4), matcher.group(7), matcher.group(9) ,matcher.group(11));
+        		return;
     		}
     		else{
 	    		throw new ErreurFormatException("Error while parsing "+ligne+"\nThis line should appear only when the master name, the date and the room are already defined");
 	    	}
-    		return;
     	}
-    	else{
-    		throw new ErreurFormatException("Error while parsing "+ligne+"\nThis line does't match any reg ex of the format");
+    	
+    	matcher = petitePausePattern.matcher(ligne);
+    	if(matcher.matches()){
+    		// line which define the date of the presentation
+    		if(this.ecrivainLatex != null){
+    			this.ecrivainLatex.ecrire(ConstantesLatex.PETITE_PAUSE);
+        		return;
+    		}
+    		else{
+	    		throw new ErreurFormatException("Error while parsing "+ligne+"\nThis line should appear only when the master name, the date and the room are already defined");
+	    	}
     	}
+    	
+    	matcher = grandePausePattern.matcher(ligne);
+    	if(matcher.matches()){
+    		// line which define the date of the presentation
+    		if(this.ecrivainLatex != null){
+    			this.ecrivainLatex.ecrire(ConstantesLatex.GRANDE_PAUSE);
+        		return;
+    		}
+    		else{
+	    		throw new ErreurFormatException("Error while parsing "+ligne+"\nThis line should appear only when the master name, the date and the room are already defined");
+	    	}
+    	}
+
+		throw new ErreurFormatException("Error while parsing "+ligne+"\nThis line does't match any reg ex of the format");
     	
     }
         
-    protected void ecrireLigneTableau(String begHour, String endHour, String name, String company, String topic){
+    protected void setMasterName(String masterName) {
+		if(this.masterName != null){
+			//another file needed
+			try {
+				this.finDuFichier(false);
+			} catch (ErreurFormatException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			this.date=null;
+			this.room=null;
+		}
+    	this.masterName = masterName;
+		
+		
+	}
+
+	protected void setDate(String date) {
+		if(this.date != null){
+			//another file needed
+			try {
+				this.finDuFichier(false);
+			} catch (ErreurFormatException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			this.masterName=null;
+			this.room=null;
+		}
+		this.date = date;
+	}
+
+	protected void setRoom(String room) {
+		if(this.room != null){
+			//another file needed
+			try {
+				this.finDuFichier(false);
+			} catch (ErreurFormatException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			this.masterName=null;
+			this.date=null;
+		}
+		this.room = room;
+	}
+
+	protected void ecrireLigneTableau(String begHour, String endHour, String name, String company, String topic){
   		String result = "	"+ begHour + "-" + endHour + ConstantesLatex.SEPARATEUR_CASE + (name==null?"":name) + ConstantesLatex.SEPARATEUR_CASE + (company==null?"":company) + ConstantesLatex.SEPARATEUR_CASE + (topic==null?"":topic) +ConstantesLatex.FIN_LIGNE_TABLEAU;
 		this.ecrivainLatex.ecrire(result);    	
     }
@@ -136,7 +228,9 @@ public class GenerationLatexPlanningMaster {
     public void genererUnPlanning(String ligneLue) throws IOException, ErreurFormatException {
     	this.extractInformationFrom(ligneLue);
     	if ( this.ecrivainLatex == null && masterName != null && date != null && room != null ){
-    		FileOutputStream stream = new FileOutputStream(this.buildFileName());
+    		String fileName = this.buildFileName();
+    		FileOutputStream stream = new FileOutputStream(fileName);
+    		fileNames.add(fileName);
     		EcritureTexte output = new EcritureTexteFlot(stream);
     		this.setOutput(output);
     		this.writeBeginOfDocument();
@@ -155,9 +249,22 @@ public class GenerationLatexPlanningMaster {
     	}
     }
     
-    public void finDuFichier() throws ErreurFormatException{
+    public void finDuFichier(boolean endOfProcess) throws ErreurFormatException{
     	this.writeEndOfFile();
     	this.ecrivainLatex.terminer();
+    	this.setOutput(null);
+    	if(!endOfProcess){ return;}
+		
+    	// generate pdf files
+		Runtime rt = Runtime.getRuntime();
+		for (String name : fileNames){	
+			try {
+				rt.exec("/usr/texbin/pdflatex "+name);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
     }
     
     public static void main (String args[])throws IOException, ErreurFormatException{

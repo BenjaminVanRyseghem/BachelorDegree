@@ -1,3 +1,14 @@
+/* ***************************************
+ * 
+ * 	Benjamin Van Ryseghem
+ * 
+ * 
+ * 
+ ************************************** */
+
+
+
+
 package planningMaster;
 
 import java.io.FileOutputStream;
@@ -207,7 +218,6 @@ public class GenerationLatexPlanningMaster {
     	String result = "";
     	result += ConstantesLatex.DEBUT_COMMANDE_MASTER+this.masterName+ConstantesLatex.FIN_COMMANDE;
     	result += ConstantesLatex.DEBUT_COMMANDE_DATE+this.date+ConstantesLatex.FIN_COMMANDE;
-
     	result += ConstantesLatex.DEBUT_COMMANDE_SALLE+this.room+ConstantesLatex.FIN_COMMANDE;
     	result += ConstantesLatex.DEFINITION_TITRE;
     	result += ConstantesLatex.DEBUT_TABLEAU;

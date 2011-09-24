@@ -1,0 +1,19 @@
+Benjamin Van Ryseghem
+
+----------------------------------------------
+
+Mon programme java permet de générer les fichiers pdf avec les pauses et plusieurs planning provenant d'un seul fichier DSL.
+
+Les mots "planning" et ";" peuvent être utilisés sans soucis dans la deuxième colonne
+
+
+1. On peut aisément changer master en diplôme, il suffit de changer la définition du mot clef en en tête du fichier GenerationLatexPlanningMaster.java. On pourrait aussi créer des variables d'instances et les définir à l'instanciation.
+2. Oui, dans la version proposée ici, l'ordre de définition de master, date, et salle n'est pas important.
+
+3. Il "suffit de remplacer les réferences a ConstantesLatex par une autre classe fournissant les même variables de classe. Si la méat programmation était plus facile, on pourrait aussi juste avoir une variable d'instance qui pointe vers la classe à utiliser.
+
+4. En construisant les patterns (qui définissent le langage) j'ai essayer de les rendre lisible, autant que faire ce peut.
+
+5. J'ai essayer oui :)
+
+6. La vraie contrainte gênante est l'ajout de nouveaux mots clefs, et dans ce cas, il est dur de prévoir une structure clair qui gère l'ajout de nouveaux éléments de syntaxe facilement

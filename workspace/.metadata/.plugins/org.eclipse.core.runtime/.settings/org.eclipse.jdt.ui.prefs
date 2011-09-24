@@ -1,4 +1,4 @@
-#Sat Sep 24 15:52:28 CEST 2011
+#Sat Sep 24 20:02:17 CEST 2011
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 command=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/javadoc
@@ -8,6 +8,7 @@ useAnnotationsPrefPage=true
 eclipse.preferences.version=1
 org.eclipse.jface.textfont=1|Monaco|11.0|0|COCOA|1|;
 tabWidthPropagated=true
+LexicalSortingAction.isChecked=true
 org.eclipse.jdt.ui.editor.tab.width=
 closeBrackets=false
 fontPropagated=true
