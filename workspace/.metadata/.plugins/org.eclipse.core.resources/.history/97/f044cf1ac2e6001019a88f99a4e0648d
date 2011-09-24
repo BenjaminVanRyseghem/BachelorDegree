@@ -1,0 +1,30 @@
+package planningMaster;
+
+import java.io.OutputStreamWriter;
+import java.io.PrintStream;
+import java.io.OutputStream;
+
+/** Écrit dans un flot de sortie. */
+public class EcritureTexteFlot implements EcritureTexte {
+    
+    private OutputStreamWriter output;
+
+    /** Pour créér un EcritureTexteFlot à partir d'un nom de fichier,
+	passer en paramètre du constructeur un <tt>new
+	java.io.FileOutputStream(mon_nom_fichier)</tt>.
+    */
+    public EcritureTexteFlot(OutputStreamWriter output) {
+	this.output = output;
+    }
+
+    /** Écrit dans le flot. */
+    public void ecrire(String donnee) throws IOException{
+	this.output.write(donnee);
+    }
+
+    /** Ferme le flot. */
+    public void terminer() throws IOException {
+	this.output.close();
+    }
+    
+}

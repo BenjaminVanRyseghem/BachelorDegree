@@ -5,7 +5,7 @@ salle A12
 8h30-9h15 ; ; ;
 9h15-10h00 ; Dupont Martin ; NEFFE ; J2EE, Scrum, DD
 10h00-10h45 ; Nguyen Julie ; Enercoope ; php, cahier des charges
-10h45-11h30 ; El Amrani Hassan ; Cr√©dit Coop ; huis-clos
+10h45-11h30 ; El Amrani Hassan ; Crédit Coop ; huis-clos
 
 grandePause
 
@@ -14,7 +14,7 @@ grandePause
 
 petitePause
 
-14h45-14h30 ; Kipling Mark ; Paix Verte  ; m√©thodes agiles 
+14h45-14h30 ; Kipling Mark ; Paix Verte  ; méthodes agiles 
 15h30-16h15 ; ; ; 
 16h15-17h00 ; ; ;
 

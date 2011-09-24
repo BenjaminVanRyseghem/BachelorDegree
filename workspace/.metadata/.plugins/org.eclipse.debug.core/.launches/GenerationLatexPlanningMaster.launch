@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="planningMaster.GenerationLatexPlanningMaster"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/Users/benjamin/Documents/Scholarship/COMPIL/TP1/tp1/test/exemple.dsl"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="COMPIL_TP1"/>
+</launchConfiguration>

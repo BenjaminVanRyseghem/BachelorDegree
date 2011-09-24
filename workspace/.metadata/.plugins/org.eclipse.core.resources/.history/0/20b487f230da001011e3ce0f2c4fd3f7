@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+unsigned int factorielle_it(unsigned int n){
+
+	unsigned int result;
+	result = n;
+
+	while (n){
+		result *= n--;
+	}
+
+return result;
+}
+
+unsigned int factorielle_rec(unsigned int n){
+
+	if ( n>1 ){
+		return n*factorielle_rec( n-1 );
+	}
+	return 1;
+}
+
+int maxLine(){
+	int max;
+	char currentChar;
+	int currentTmp;
+
+	max = 0;
+	currentChar = getchar();
+
+	while( currentChar != -1 ){
+		currentTmp = 0;
+		while (currentChar != '\n' & currentChar != -1 ){
+			currentTmp ++;
+		}
+		max = max(max, currentTmp);
+		currentChar = getChar();
+	}
+	return max;
+}
+
+int main(int argc, char** argv){
+
+	int input;
+	input = getchar();
+
+	printf("Entered Value: %d\n", input-48);
+	printf("Iteratif factorial: %d\n", factorielle_it(input-48));
+	printf("Recursif factorial: %d\n", factorielle_rec(input-48));
+
+	return 0;
+}

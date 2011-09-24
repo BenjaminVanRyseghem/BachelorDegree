@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gagu/src/gagu.c&apos; to &apos;td1&apos;" description="Rename resource &apos;gagu.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/gagu.c" name="td1" stamp="1315497108882" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gagu/src/td1&apos; to &apos;td1.c&apos;" description="Rename resource &apos;td1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/td1" name="td1.c" stamp="1315497116105" updateReferences="true"/>
+</session>
