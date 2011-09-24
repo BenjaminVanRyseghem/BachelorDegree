@@ -1,18 +1,10 @@
 
-COMEIT/Management/TP1/marvosym.aux
+*.aux
 
-COMEIT/Management/TP1/amsymb.aux
+*.synctex.gz
 
-COMEIT/Management/TP1/TP1.synctex.gz
+*.out
 
-COMEIT/Management/TP1/TP1.out
+*.log
 
-COMEIT/Management/TP1/TP1.log
-
-COMEIT/Management/TP1/TP1.aux
-
-.DS_Store
-
-.DS_Store
-
-.DS_Store
+*.DS_Store
