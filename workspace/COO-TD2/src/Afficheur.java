@@ -1,9 +1,9 @@
 import java.util.*;
 
 public class Afficheur {
-	private FileFIFO<Character> ecran;
-	private String message="";
-	private int index=0;
+	protected FileFIFO<Character> ecran;
+	protected String message="";
+	protected int index=0;
 
 	
 	public Afficheur(int largeur){
@@ -29,7 +29,7 @@ public class Afficheur {
 		return this.ecran.toString();
 	}
 
-	private class FileFIFO<E> {
+	protected class FileFIFO<E> {
 		List<E> internalList;
 		int indiceTete;
 		int longueur;

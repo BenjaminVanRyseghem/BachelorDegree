@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="FileSystemImportWizard">
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="/Users/benjamin/Documents/Scholarship/COO/TP1-Telephonie/src"/>
-			<item value="/Users/benjamin/Scholarship/COMPIL/TP1/tp1/src"/>
-		</list>
-	</section>
 	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
 		<item value="0" key="sort"/>
 		<item value="false" key="allPersp"/>
@@ -20,6 +12,15 @@
 		<list key="columns">
 			<item value="199"/>
 			<item value="399"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/benjamin/Documents/Scholarship/COO/TP2/src"/>
+			<item value="/Users/benjamin/Documents/Scholarship/COO/TP1-Telephonie/src"/>
+			<item value="/Users/benjamin/Scholarship/COMPIL/TP1/tp1/src"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">

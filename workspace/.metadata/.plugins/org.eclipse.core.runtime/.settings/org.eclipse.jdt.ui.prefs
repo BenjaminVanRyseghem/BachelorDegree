@@ -1,4 +1,4 @@
-#Sat Sep 24 20:02:17 CEST 2011
+#Tue Sep 27 18:16:12 CEST 2011
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 command=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/javadoc
@@ -15,6 +15,7 @@ fontPropagated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 proposalOrderMigrated=true
+Refactoring.savealleditors=true
 breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
 content_assist_proposals_background=255,255,255
 org.eclipse.jdt.ui.formatterprofiles.version=12

@@ -1,0 +1,20 @@
+package enumeration;
+
+public class ArcEnCielTest {
+
+	protected enum ArcEnCiel{rouge, orange, jaune, vert, bleu, indigo, violet};
+	
+	protected ArcEnCiel retrieveColorFrom(String name){
+		
+		ArcEnCiel.valueOf(name);
+		
+		
+		
+		return ArcEnCiel.orange;
+	}
+	
+	public static void main (String[] args){
+		ArcEnCielTest test = new ArcEnCielTest();
+		System.out.println(test.retrieveColorFrom("plop"));
+	}
+}

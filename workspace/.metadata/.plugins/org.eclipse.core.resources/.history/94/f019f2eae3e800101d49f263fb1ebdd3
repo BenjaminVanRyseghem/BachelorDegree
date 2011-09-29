@@ -1,0 +1,10 @@
+
+public class Latence extends Afficheur {
+
+	protected int tempsDeLatance = 0;
+	
+	public Latence (int l , int tempsDeLatence){
+		super(l);
+		this.tempsDeLatence = tempsDeLatence;
+	}
+}

@@ -1,0 +1,54 @@
+Premieres requetes en SQL
+==================
+
+- remplissez vos tables articles, fournisseurs et catalogues avec les commandes d'insertion fournies
+
+- travaillez maintenant les requetes 1.1 a 1.13 de l'exo 1 du TD1 en SQL. 
+
+- pour certaines requetes, repondez a des questions 
+
+- Q 1.1a 
+dans le resultat, renommez l'attribut 'fnom' en 'suppliername'
+
+- Q 1.2
+utilisez l'operateur LIKE
+
+- Q 1.5
+quel est l'effet du mot-cle distinct, lorsqu'on l'ajoute a cette requette? quelle information implicite dans la version sans "distinct" disparait?
+
+- Q 1.7
+exprimez la condition de deux maniere differentes:
+
+- avec une expression booleenne 
+- avec l'operateur BETWEEN
+
+encore:
+quel est l'effet du mot-cle distinct, lorsqu'on l'ajoute a cette requette? quelle information implicite dans la version sans "distinct" disparait?
+
+- Q 1.8
+en SQL, l'operateur ensembliste est INTERSECT.
+
+d'autres operateurs ensemblistes sont UNION et EXCEPT (ce dernier s'appelle MINUS dans l'interprete d'algebre relationnelle).
+
+- Q 1.9
+
+exprimez la requete de deux manieres differentes:
+- avec une expression booleenne
+- avec une operation ensembliste, comme vous l'aviez fait en algebre
+
+si vous remarquez qqc d'interessant, expliquez-le.
+
+- Q 1.10
+
+exprimez la requete de deux manieres differentes:
+- avec une expression booleenne
+- avec une operation ensembliste, comme en algebre
+
+si vous remarquez qqc d'interessant, expliquez-le.
+
+
+- Q 1.11 BONUS
+
+Trouvez le prix de l'article le plus cher, sans utiliser MAX. 
+Utilisez la meme technique que pour la question bonus en algebre.
+

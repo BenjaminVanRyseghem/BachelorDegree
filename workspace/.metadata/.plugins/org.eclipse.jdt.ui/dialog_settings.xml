@@ -5,6 +5,10 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+	</section>
 	<section name="FatJarPackageWizard">
 		<item value="/Users/benjamin/Scholarship/COO/Telephonie.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="Simulation - Telephonie" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
@@ -21,15 +25,15 @@
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="356" key="DIALOG_WIDTH"/>
 		<item value="18" key="DIALOG_Y_ORIGIN"/>
-		<item value="456" key="DIALOG_HEIGHT"/>
 		<item value="90" key="DIALOG_X_ORIGIN"/>
+		<item value="456" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="false" key="Comments"/>
 		<item value="4" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -45,14 +49,14 @@
 		<item value="protected" key="access"/>
 		<item value="true" key="version"/>
 		<item value="false" key="nodeprecated"/>
-		<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/doc" key="destdir"/>
+		<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/doc" key="destdir"/>
 		<item value="true" key="author"/>
 		<item value="" key="docletname"/>
 		<item value="1.6" key="source"/>
 		<item value="false" key="openinbrowser"/>
 		<item value="false" key="noindex"/>
 		<item value="" key="docletpath"/>
-		<item value="/Users/benjamin/Documents/workspace/Telephonie/javadoc.xml" key="antpath"/>
+		<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/javadoc.xml" key="antpath"/>
 		<item value="true" key="fromStandard"/>
 		<section name="projects">
 			<section name="Telephonie">
@@ -65,9 +69,24 @@
 				<item value="/Users/benjamin/Documents/workspace/Vote/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="TP1">
-				<item value="/Users/benjamin/Documents/workspace/TP1/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/TP1/javadoc.xml" key="antpath"/>
+			<section name="COO-TD2">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="COMPIL_TP1">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="C_TD1">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="C_TP1">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="MyLinkedList">
@@ -78,11 +97,6 @@
 			<section name="Sandbox">
 				<item value="/Users/benjamin/Documents/workspace/Sandbox/doc" key="destdir"/>
 				<item value="/Users/benjamin/Documents/workspace/Sandbox/javadoc.xml" key="antpath"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="TD1">
-				<item value="/Users/benjamin/Documents/workspace/TD1/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/TD1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 		</section>
@@ -102,9 +116,9 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="RenameInformationPopup">
-	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
@@ -113,8 +127,8 @@
 	<section name="JavadocWizardDialog">
 		<item value="600" key="DIALOG_WIDTH"/>
 		<item value="199" key="DIALOG_Y_ORIGIN"/>
-		<item value="660" key="DIALOG_X_ORIGIN"/>
 		<item value="582" key="DIALOG_HEIGHT"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

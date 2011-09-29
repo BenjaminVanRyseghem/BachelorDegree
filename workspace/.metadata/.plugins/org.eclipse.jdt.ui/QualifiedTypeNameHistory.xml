@@ -14,4 +14,6 @@
 <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="generics.Carotte"/>
+<fullyQualifiedTypeName name="scanner.TestScanner"/>
 </qualifiedTypeNameHistroy>

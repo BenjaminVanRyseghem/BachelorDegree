@@ -1,0 +1,12 @@
+
+public class B extends A{
+	
+	public String foo(){
+		return "B";
+	}
+	
+	public String bar(){
+		super.foo();
+	}
+	
+}

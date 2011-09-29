@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="774" maximized="true" width="1920" x="0" y="22">
+<window height="1174" width="1618" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -39,17 +39,17 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GenerationLatexPlanningMaster.java" partName="GenerationLatexPlanningMaster.java" path="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java" title="GenerationLatexPlanningMaster.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3060" selectionTopPixel="578"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ramasseur.java" partName="Ramasseur.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/src/generics/Ramasseur.java" title="Ramasseur.java" tooltip="COO-TP2-Genericity/src/generics/Ramasseur.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP2-Genericity/src/generics/Ramasseur.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LancerGeneration.java" partName="LancerGeneration.java" path="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java" title="LancerGeneration.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="551" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoserLegume.java" partName="ListChoserLegume.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/src/generics/ListChoserLegume.java" title="ListChoserLegume.java" tooltip="COO-TP2-Genericity/src/generics/ListChoserLegume.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP2-Genericity/src/generics/ListChoserLegume.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="315"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConstantesLatex.java" partName="ConstantesLatex.java" path="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/planningMaster/planningMaster/ConstantesLatex.java" title="ConstantesLatex.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/ConstantesLatex.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COMPIL_TP1/planningMaster/planningMaster/ConstantesLatex.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1217" selectionTopPixel="134"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArcEnCielTest.java" partName="ArcEnCielTest.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java" title="ArcEnCielTest.java" tooltip="COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1080" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -320,7 +320,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -372,37 +372,26 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
-<view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">
@@ -414,23 +403,31 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7900553" ratioLeft="858" ratioRight="228" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -440,160 +437,166 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=COMPIL_TP1/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Runtime.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COMPIL_TP1/planningMaster/planningMaster/ConstantesLatexString.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/ListChoser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/Carotte.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/Legume.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/ListChoserLegume.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/Rutabaga.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/ListChoserLegumeCloneable.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/Ramasseur.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/generics/ListChoserLegume.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/scanner/TestScanner.java"/>
 </editors>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="1246" y="17"/>
+<item historyLabel="Rutabaga.java" index="4">
+<position info="not_deleted" x="34" y="8"/>
 </item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5749" y="13"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="3351" y="22"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="4101" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5749" y="13"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6024" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="8601" y="14"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="8947" y="12"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5749" y="13"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6024" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5986" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6004" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9390" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6090" y="7"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6181" y="19"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6507" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6398" y="7"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="6489" y="19"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5749" y="13"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5876" y="0"/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="5876" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="368" y="29"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9390" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9245" y="0"/>
-</item>
-<item historyLabel="Runtime.class" index="2">
+<item historyLabel="ListChoserLegume.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9245" y="0"/>
+<item historyLabel="Rutabaga.java" index="4">
+<position info="not_deleted" x="34" y="8"/>
 </item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="1908" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="1900" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="1855" y="9"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="1873" y="9"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="7746" y="20"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9288" y="0"/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9280" y="0"/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9286" y="0"/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="504" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9279" y="0"/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9279" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="8947" y="12"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9390" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position/>
-</item>
-<item historyLabel="LancerGeneration.java" index="0">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9259" y="0"/>
-</item>
-<item historyLabel="ConstantesLatexString.java" index="3">
+<item historyLabel="ListChoserLegume.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="GenerationLatexPlanningMaster.java" index="1">
-<position info="not_deleted" x="9390" y="0"/>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="108" y="0"/>
+</item>
+<item historyLabel="Rutabaga.java" index="4">
+<position info="not_deleted" x="34" y="8"/>
+</item>
+<item historyLabel="Legume.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Rutabaga.java" index="4">
+<position info="not_deleted" x="34" y="8"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="108" y="0"/>
+</item>
+<item historyLabel="ListChoser.java" index="0">
+<position info="not_deleted" x="772" y="847"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="ListChoser.java" index="0">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="1642" y="0"/>
+</item>
+<item historyLabel="Carotte.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="1474" y="0"/>
+</item>
+<item historyLabel="Carotte.java" index="1">
+<position info="not_deleted" x="55" y="6"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="1474" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="1638" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="3">
+<position info="not_deleted" x="360" y="853"/>
+</item>
+<item historyLabel="ListChoserLegumeCloneable.java" index="5">
+<position info="not_deleted" x="871" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1172" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1150" y="5"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="684" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position/>
+</item>
+<item historyLabel="ListChoserLegume.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="2043" y="6"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1150" y="5"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1167" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="833" y="49"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="2131" y="28"/>
+</item>
+<item historyLabel="Ramasseur.java" index="6">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="ArcEnCielTest.java" index="8">
+<position info="not_deleted" x="1370" y="0"/>
+</item>
+<item historyLabel="TestScanner.java" index="9">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="ArcEnCielTest.java" index="8">
+<position info="not_deleted" x="1370" y="0"/>
+</item>
+<item historyLabel="ArcEnCielTest.java" index="8">
+<position info="not_deleted" x="1801" y="0"/>
+</item>
+<item active="true" historyLabel="ArcEnCielTest.java" index="8">
+<position info="not_deleted" x="1903" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -601,13 +604,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -619,50 +615,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConstantesLatexString.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/ConstantesLatexString.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/ConstantesLatexString.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScanner.java" tooltip="COO-TP2-Genericity/src/scanner/TestScanner.java">
+<persistable path="/COO-TP2-Genericity/src/scanner/TestScanner.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Runtime.class" tooltip="java.lang.Runtime">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=COMPIL_TP1/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Runtime.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArcEnCielTest.java" tooltip="COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java">
+<persistable path="/COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConstantesLatex.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/ConstantesLatex.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/ConstantesLatex.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoserLegume.java" tooltip="COO-TP2-Genericity/src/generics/ListChoserLegume.java">
+<persistable path="/COO-TP2-Genericity/src/generics/ListChoserLegume.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LancerGeneration.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ramasseur.java" tooltip="COO-TP2-Genericity/src/generics/Ramasseur.java">
+<persistable path="/COO-TP2-Genericity/src/generics/Ramasseur.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ErreurFormatException.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/ErreurFormatException.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/ErreurFormatException.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoserLegumeCloneable.java" tooltip="COO-TP2-Genericity/src/generics/ListChoserLegumeCloneable.java">
+<persistable path="/COO-TP2-Genericity/src/generics/ListChoserLegumeCloneable.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EcritureTexte.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/EcritureTexte.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/EcritureTexte.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Carotte.java" tooltip="COO-TP2-Genericity/src/generics/Carotte.java">
+<persistable path="/COO-TP2-Genericity/src/generics/Carotte.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EcritureTexteFlot.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/EcritureTexteFlot.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/EcritureTexteFlot.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rutabaga.java" tooltip="COO-TP2-Genericity/src/generics/Rutabaga.java">
+<persistable path="/COO-TP2-Genericity/src/generics/Rutabaga.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Constante.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/Constante.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/Constante.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Legume.java" tooltip="COO-TP2-Genericity/src/generics/Legume.java">
+<persistable path="/COO-TP2-Genericity/src/generics/Legume.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=COMPIL_TP1/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(String.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoser.java" tooltip="COO-TP2-Genericity/src/generics/ListChoser.java">
+<persistable path="/COO-TP2-Genericity/src/generics/ListChoser.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GenerationLatexPlanningMaster.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fruit.java" tooltip="COO-TP2-Genericity/src/generics/Fruit.java">
+<persistable path="/COO-TP2-Genericity/src/generics/Fruit.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ModeDePaiementInvalideException.java" tooltip="Telephonie/telephonie/ModeDePaiementInvalideException.java">
-<persistable path="/Telephonie/telephonie/ModeDePaiementInvalideException.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C.java" tooltip="COO-TD2/src/C.java">
+<persistable path="/COO-TD2/src/C.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarteBancaire.java" tooltip="Telephonie/telephonie/CarteBancaire.java">
-<persistable path="/Telephonie/telephonie/CarteBancaire.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B.java" tooltip="COO-TD2/src/B.java">
+<persistable path="/COO-TD2/src/B.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CartePrePayee.java" tooltip="Telephonie/src_from_teacher/telephonie/CartePrePayee.java">
-<persistable path="/Telephonie/src_from_teacher/telephonie/CartePrePayee.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="A.java" tooltip="COO-TD2/src/A.java">
+<persistable path="/COO-TD2/src/A.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarteBancaire.java" tooltip="Telephonie/src_from_teacher/telephonie/CarteBancaire.java">
-<persistable path="/Telephonie/src_from_teacher/telephonie/CarteBancaire.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LAtence.java" tooltip="COO-TD2/src/LAtence.java">
+<persistable path="/COO-TD2/src/LAtence.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ModeDePaiementInvalideException.java" tooltip="Telephonie/src_from_teacher/telephonie/ModeDePaiementInvalideException.java">
-<persistable path="/Telephonie/src_from_teacher/telephonie/ModeDePaiementInvalideException.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Afficheur.java" tooltip="COO-TD2/src/Afficheur.java">
+<persistable path="/COO-TD2/src/Afficheur.java"/>
 </file>
 </mruList>
 </workbench>

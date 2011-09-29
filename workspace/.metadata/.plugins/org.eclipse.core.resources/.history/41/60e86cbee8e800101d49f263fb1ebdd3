@@ -1,0 +1,16 @@
+
+public class C extends B {
+
+	
+		public String foo(){
+			return "C";
+		}
+		
+		
+		public static void main(String[] args){
+			C c = new C();
+			System.out.println(c.foo());
+			
+			
+		}
+}
