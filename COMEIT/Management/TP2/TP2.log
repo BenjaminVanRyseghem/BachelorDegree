@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 SEP 2011 14:59
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  29 SEP 2011 13:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -446,7 +446,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <Do
-cument1.pdf, id=86, page=1, 831.105pt x 626.34pt>
+cument1.pdf, id=110, page=1, 831.105pt x 626.34pt>
 File: Document1.pdf Graphic file (type pdf)
 
 <use Document1.pdf, page 1>
@@ -482,20 +482,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 141.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./TP2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package rerunfilecheck Info: File `TP2.out' has not changed.
-(rerunfilecheck)             Checksum: F3B6677B384766F5DA7B750456F661BC;1666.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+
+
+Package rerunfilecheck Warning: File `TP2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TP2.out':
+(rerunfilecheck)             Before: F502AAD81AB65F26EB9A14A37D8B92EE;2443
+(rerunfilecheck)             After:  9453B37FE1CD55017B478397230625A6;2449.
  ) 
 Here is how much of TeX's memory you used:
- 7410 strings out of 493747
- 108803 string characters out of 3143546
- 201791 words of memory out of 3000000
- 10508 multiletter control sequences out of 15000+200000
- 28394 words of font info for 61 fonts, out of 3000000 for 9000
+ 7429 strings out of 493747
+ 109032 string characters out of 3143546
+ 202791 words of memory out of 3000000
+ 10516 multiletter control sequences out of 15000+200000
+ 32839 words of font info for 66 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  40i,18n,45p,314b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -506,13 +514,14 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cyrillic/wncyb10.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cyrillic/wncyr10.
-pfb>
-Output written on TP2.pdf (4 pages, 153646 bytes).
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cyrillic/wncyb10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cyrillic/wncyr10.p
+fb>
+Output written on TP2.pdf (5 pages, 167489 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

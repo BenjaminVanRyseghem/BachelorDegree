@@ -15,6 +15,9 @@ public class Ramasseur<E>{
     // donneA : donne l'objet porte a un autre ramasseur compatible 
     // depose: depose l'objet "tenu"
 	
+	public String toString(){
+		return this.name + " carries " + this.object;
+	}
 
 	protected E getObject(){
 		return this.object;
@@ -39,7 +42,8 @@ public class Ramasseur<E>{
 	//ramasseCarot1.giveSthTo(ramasseVegetable);
 	protected void donneA(Ramasseur<? super E> ramasseurV) throws IllegalStateException{
 		
-		ramasseurV.prend(this.object);//E
+		ramasseurV.prend(this.object);
+		this.depose();
 	}
 	
     public Ramasseur(String name) {

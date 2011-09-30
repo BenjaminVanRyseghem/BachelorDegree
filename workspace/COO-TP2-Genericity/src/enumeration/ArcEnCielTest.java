@@ -21,9 +21,9 @@ public class ArcEnCielTest {
 	}
 	
 	protected enum Jour{ lundi(true), mardi(true), mercredi(true), jeudi(true), vendredi(true), samedi(false), dimanche(false);
-		boolean estTravaille;
+		boolean isWorked;
 		private Jour(boolean estTravaille){
-			this.estTravaille = estTravaille;
+			this.isWorked = estTravaille;
 		}
 		protected Jour lendemain(){
 			int index = this.ordinal();
@@ -33,7 +33,7 @@ public class ArcEnCielTest {
 		protected void printNextWeek(){
 			Jour next = this;
 			for ( int i = 0; i < 7 ; i++){
-				System.out.println(next.name()+" est travaillŽ: "+next.estTravaille);
+				System.out.println(next.name()+" is worked: "+next.isWorked);
 				next = next.lendemain();
 			}
 		}
@@ -52,7 +52,10 @@ public class ArcEnCielTest {
 	
 	
 	public static void main (String[] args){
-		ArcEnCiel a = ArcEnCiel.retrieveColorFrom("violet");
+		String initialColor = "violet";
+		if(args.length == 1) initialColor = args[0];
+					
+		ArcEnCiel a = ArcEnCiel.retrieveColorFrom(initialColor);
 		ArcEnCiel b = a.next();
 		System.out.println(a);
 		System.out.println(b);

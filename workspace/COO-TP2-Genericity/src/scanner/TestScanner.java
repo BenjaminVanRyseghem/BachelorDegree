@@ -7,7 +7,7 @@ public class TestScanner {
 
     /** permet la saisie d'un entier en 0 (inclus)  et n (exclu)
      * la demande saisie se repete tant qu'elle n'est pas correcte
-     * @param la borne sup autorisee
+     * @param n la borne sup autorisee
      * @return la saisie (valide) realisee
      */
     public static int saisieEntier(int n) {

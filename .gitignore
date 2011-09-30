@@ -9,4 +9,12 @@
 
 *.DS_Store
 
+*.class
+
+workspace/.metadata/*
+
 BDD/.DS_Store
+
+*.html
+
+COMPIL/jflex*

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="/Users/benjamin/Documents/Scholarship/COMPIL/bcel-5.2.jar" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/src" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
@@ -10,12 +15,13 @@
 		<item value="600" key="width"/>
 	</section>
 	<section name="FatJarPackageWizard">
-		<item value="/Users/benjamin/Scholarship/COO/Telephonie.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
-		<item value="Simulation - Telephonie" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="/Users/benjamin/Documents/Scholarship/COO/Genericity.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="Ramasseur - COO-TP2-Genericity" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
 		<item value="" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/benjamin/Documents/Scholarship/COO/Genericity.jar"/>
 			<item value="/Users/benjamin/Scholarship/COO/Telephonie.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
@@ -25,15 +31,15 @@
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="356" key="DIALOG_WIDTH"/>
 		<item value="18" key="DIALOG_Y_ORIGIN"/>
-		<item value="90" key="DIALOG_X_ORIGIN"/>
 		<item value="456" key="DIALOG_HEIGHT"/>
+		<item value="90" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="4" key="VisibilityModifier"/>
 		<item value="false" key="Comments"/>
+		<item value="4" key="VisibilityModifier"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -49,29 +55,39 @@
 		<item value="protected" key="access"/>
 		<item value="true" key="version"/>
 		<item value="false" key="nodeprecated"/>
-		<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/doc" key="destdir"/>
+		<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/doc" key="destdir"/>
 		<item value="true" key="author"/>
 		<item value="" key="docletname"/>
 		<item value="1.6" key="source"/>
 		<item value="false" key="openinbrowser"/>
 		<item value="false" key="noindex"/>
 		<item value="" key="docletpath"/>
-		<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/javadoc.xml" key="antpath"/>
+		<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/javadoc.xml" key="antpath"/>
 		<item value="true" key="fromStandard"/>
 		<section name="projects">
-			<section name="Telephonie">
-				<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/Telephonie/javadoc.xml" key="antpath"/>
+			<section name="COO-TD1-Vote">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="Vote">
-				<item value="/Users/benjamin/Documents/workspace/Vote/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/Vote/javadoc.xml" key="antpath"/>
+			<section name="COO-TP2-Genericity">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="COO-TD2">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/doc" key="destdir"/>
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="COO-TP1-Telephonie">
+				<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP1-Telephonie/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FRANCIS_COO">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="COMPIL_TP1">
@@ -84,14 +100,19 @@
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="COO-TD2-LinkedList">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2-LinkedList/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2-LinkedList/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="C_TP1">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/doc" key="destdir"/>
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="MyLinkedList">
-				<item value="/Users/benjamin/Documents/workspace/MyLinkedList/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/MyLinkedList/javadoc.xml" key="antpath"/>
+			<section name="COMPIL-TP2">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL-TP2/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL-TP2/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="Sandbox">
@@ -116,9 +137,9 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
-	</section>
 	<section name="RenameInformationPopup">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
@@ -126,9 +147,9 @@
 	</section>
 	<section name="JavadocWizardDialog">
 		<item value="600" key="DIALOG_WIDTH"/>
-		<item value="199" key="DIALOG_Y_ORIGIN"/>
+		<item value="120" key="DIALOG_Y_ORIGIN"/>
+		<item value="491" key="DIALOG_X_ORIGIN"/>
 		<item value="582" key="DIALOG_HEIGHT"/>
-		<item value="660" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
