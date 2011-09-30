@@ -1,0 +1,1 @@
+javac -d classes `ls */init/*/*.java`

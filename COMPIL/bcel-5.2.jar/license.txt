@@ -1,0 +1,3 @@
+
+These Apache Commons libraries are licensed under the Apache License, 
+Version 2.0.

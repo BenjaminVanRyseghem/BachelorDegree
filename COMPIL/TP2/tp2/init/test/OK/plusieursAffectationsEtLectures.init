@@ -1,0 +1,5 @@
+program plusieursInstr;
+read rt;
+ere := 354;
+eyyy := 0;
+read tt;

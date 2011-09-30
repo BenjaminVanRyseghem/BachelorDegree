@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>COMPIL-TP2</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>CUP</name>
+			<value>file:/Users/benjamin/Documents/Scholarship/COMPIL/java-cup-11a.jar</value>
+		</variable>
+		<variable>
+			<name>JFlex</name>
+			<value>file:/Users/benjamin/Documents/Scholarship/COMPIL/jflex-1.4.3/jflex-1.4.3/lib/JFlex.jar</value>
+		</variable>
+		<variable>
+			<name>bcel</name>
+			<value>file:/Users/benjamin/Documents/Scholarship/COMPIL/bcel-5.2.jar/bcel-5.2.jar</value>
+		</variable>
+	</variableList>
+</projectDescription>

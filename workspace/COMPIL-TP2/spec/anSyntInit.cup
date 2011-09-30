@@ -1,0 +1,25 @@
+/*****************************************************
+ * Description pour Cup d'une grammaire vide
+ * Sert uniquement à définir les symboles de INIT
+ *
+ * 16/12/04 - revu 09/09 
+ * M. Nebut
+ *
+ *****************************************************/
+
+package init.analyseurs;
+
+/* terminaux (symboles retournés par l'analyseur lexical) */
+
+terminal PROG,DECLINT,READ,IDENT,ENTIER,AFF,FININSTR;
+terminal SEPVAR;
+
+/********* Non utilisé pour le TP1 *************/
+
+/* non-terminaux de la grammaire */
+
+non terminal texte;
+
+/* la grammaire */
+
+texte ::= ;

@@ -1,0 +1,3 @@
+program toto;
+read x;
+int x;
