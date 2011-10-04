@@ -13,7 +13,7 @@
 
 workspace/.metadata/*
 
-BDD/.DS_Store
+*/*.DS_Store
 
 *.html
 

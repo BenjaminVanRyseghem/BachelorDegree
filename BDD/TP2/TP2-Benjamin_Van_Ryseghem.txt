@@ -1,0 +1,77 @@
+BDD-TP2-Benjamin Van Ryseghem
+
+1-	SELECT fnom as suppliername
+	FROM Fournisseurs;
+
+2-	SELECT *
+	FROM Fournisseurs
+	WHERE fad
+	LIKE '%Paris';
+
+3-	SELECT venom
+	FROM Fournisseurs
+	WHERE fad
+	LIKE '%Paris';
+
+4-	SELECT anom, acoul
+	FROM Articles
+	WHERE acoul='vert';
+
+5-	SELECT DISTINCT aid
+	FROM Catalogue
+	WHERE prix < 20;
+
+	L'ordre est changé, mais je ne comprends pas quel ordre est adopté.
+
+6-	SELECT DISTINCT fid
+	FROM Catalogue
+	WHERE prix < 20;
+
+7- 	SELECT DISTINCT fid
+	FROM Catalogue
+	WHERE prix > 10
+	AND prix < 20;
+
+	SELECT DISTINCT fid
+	FROM Catalogue
+	WHERE prix BETWEEN 10 AND 20;
+
+8-	SELECT DISTINCT fid
+	FROM Catalogue
+	WHERE prix > 10
+	INTERSECT
+	SELECT DISTINCT fid
+	FROM Catalogue
+	WHERE prix < 20;
+	
+9-	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='vert'
+	OR acoul='rouge';
+
+	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='vert'
+	UNION
+	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='rouge';
+
+	L'ordre est différent, mais c'est tout à fait normal, puisque l'union prend d'abord la première collection puis ajoute la seconde à la fin, alors que la première solution avec une expression booléenne grade l'ordre puisqu'un seul passage sur la collection est effectué.
+
+10-	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='vert'
+	AND acoul='rouge';
+
+	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='vert'
+	INTERSECT
+	SELECT DISTINCT anom
+	FROM Articles
+	WHERE acoul='rouge';
+
+	C'est deux expression peuvent sembler équivalente, mais sont tout à fait différente. En effet, la première requête sélectionne les articles a la fois rouge et vert, tandis que la deuxième requête sélectionne les articles propose soit en vert, soit en rouge.
+	L'énoncé de la question portant a interprétation, il est dur de valoriser une réponse plus qu'une autre.
+ 
