@@ -1,0 +1,84 @@
+/*****************************************************
+ * Description pour Cup d'une grammaire vide
+ * Sert uniquement à définir les symboles de Planning
+ *
+ * M. Lepan & M. Van Ryseghem 
+ * 2011/10/05
+ *
+ *****************************************************/
+
+package planningMaster.analyseurs;
+import java_cup.runtime.*;
+
+parser code {: 
+
+private boolean erreurSyntaxique;
+private String messageErreur;
+
+/** Redéfinition de la méthode parse() pour levée de 
+  * ParserException() en cas d'erreur syntaxique.
+  * @throws ParserException en cas d'erreur syntaxique.
+  */ 
+public Symbol parse() throws Exception, ParserException {
+   Symbol s = null;
+   try {    
+     s = super.parse();
+   } catch (Exception e) {
+   	   if (this.erreurSyntaxique)
+     	      throw new ParserException(this.messageErreur); 
+           else throw e;
+   }
+   return s;
+} 
+
+/** Redéfinition de syntax_error() pour qu'elle affiche
+  * le symbole courant.
+  */
+public void syntax_error(Symbol symboleCourant) {
+    this.erreurSyntaxique = true;
+    this.messageErreur = "erreur syntaxique sur le symbole " 
+    + ((Symbole)symboleCourant).getRepresentationTextuelle() 
+    + " ligne " + (symboleCourant.left + 1) 
+    + " colonne " + (symboleCourant.right + 1);
+}
+
+:} // parser code
+
+/* terminaux (symboles retournés par l'analyseur lexical) */
+
+terminal DATECST,MASTERCST,ROOMCST,PETITEPAUSE,GRANDEPAUSE,SLOT,DATE, NAME,ENTREPRISE;
+terminal ROOM,MASTER,OPTIONS,SEPARATOR;
+
+/* non-terminaux de la grammaire */
+
+non terminal plannings, salle, date, entry, master;
+non terminal listPlanning, planning, listEntries;
+
+/* axiome */
+
+start with plannings;
+
+/* la grammaire */
+
+plannings ::= listPlanning;
+listPlanning ::= 
+				| planning listPlanning;
+
+planning ::= master date salle listEntries; 
+
+salle ::= ROOMCST ROOM;
+master ::= MASTERCST MASTER;
+date ::= DATECST DATE;
+
+entry ::= SLOT SEPARATOR SEPARATOR SEPARATOR
+		| SLOT SEPARATOR NAME SEPARATOR SEPARATOR
+		| SLOT SEPARATOR SEPARATOR ENTREPRISE SEPARATOR
+		| SLOT SEPARATOR SEPARATOR SEPARATOR OPTIONS
+		| SLOT SEPARATOR NAME SEPARATOR ENTREPRISE SEPARATOR
+		| SLOT SEPARATOR NAME SEPARATOR SEPARATOR OPTIONS
+		| SLOT SEPARATOR SEPARATOR ENTREPRISE SEPARATOR OPTIONS
+		| SLOT SEPARATOR NAME SEPARATOR ENTREPRISE SEPARATOR OPTIONS;
+listEntries ::=
+				| PETITEPAUSE listEntries
+				| GRANDEPAUSE listEntries
+				| entry listEntries;

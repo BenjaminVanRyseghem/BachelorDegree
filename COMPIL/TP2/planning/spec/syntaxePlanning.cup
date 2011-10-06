@@ -1,0 +1,31 @@
+/*****************************************************
+ * Description pour Cup d'une grammaire vide
+ * Sert uniquement à définir les symboles de Planning
+ *
+ * M. Lepan & M. Van Ryseghem 
+ * 2011/10/05
+ *
+ *****************************************************/
+
+package planningMaster.analyseurs;
+
+/* terminaux (symboles retournés par l'analyseur lexical) */
+
+terminal DATECST,MASTERCST,ROOMCST,PETITEPAUSE,GRANDEPAUSE,SLOT,DATE, NAME,ENTREPRISE;
+terminal ROOM,MASTER,OPTIONS,SEPARATOR;
+
+/********* Non utilisé pour le TP1 *************/
+
+/* non-terminaux de la grammaire */
+
+non terminal texte, salle, date, entry, master, petitePause, grandePause;
+
+/* la grammaire */
+
+salle ::= ROOMCST ROOM;
+master ::= MASTERCST MASTER;
+date ::= DATECST DATE;
+entry ::= SLOT SEPARATOR NAME SEPARATOR NAME SEPARATOR OPTIONS;
+petitePause ::= PETITEPAUSE;
+grandePause ::= GRANDEPAUSE;
+texte ::= ;

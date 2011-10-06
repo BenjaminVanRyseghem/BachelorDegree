@@ -1,0 +1,13 @@
+Francois Lepan & Benjamin Van Ryseghem
+
+Tous les tokens semblent etre correctement générés.
+
+Nous avons utilisé un systeme d'états pour gérer la case "fourre tout".
+
+1) Je pense que la vérification de la validité de la date est plutot du ressort de l'analyseur sémantique, meme si elle peut etre fait au niveau lexical.
+
+2) car si on definit une telle case, le parser va nous rendre que des tokens CONTENU CASE :)
+
+
+
+

@@ -1,0 +1,9 @@
+TP3 - Benjamin Van Ryseghem
+
+J'ai fait a peu pres tout :)
+J'ai meme pense a verifier qu'on ne mettait pas plus de bombes que de cases disponibles, ca evite de faire planter le programme ;)
+
+
+Pour l'executer
+
+java -jar MineSweeper.jar

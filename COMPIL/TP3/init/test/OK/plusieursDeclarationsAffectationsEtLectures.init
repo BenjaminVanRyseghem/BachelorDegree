@@ -1,0 +1,7 @@
+program exemple;
+
+int x,y;
+int z;
+read z;
+x := 3;
+y := 123;

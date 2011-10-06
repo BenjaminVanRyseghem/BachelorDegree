@@ -1,0 +1,19 @@
+TP3 - Benjamin Van Ryseghem
+
+Les tests passent, je pense que tout est a peu pres correct :)
+
+1) La gestion des blancs est un peu trop laxiste, mais à l'avantage d'épargner un peu de travail :)
+
+2) 	RegEx
+		Pros:
+		- Syntaxe Java
+		Cons:
+		- Concaténation de chaine
+		- Code lourd
+
+ 	JFlex/Cup
+		Pros:
+		- Séparé du code Java
+		- Maintenance/Corrections plus faciles
+		Cons:
+		- Nouvelle syntaxe
