@@ -1,8 +1,0 @@
-ls spec :
-anLexInit.lex
-anSyntInit.cup
-
-ls init/analyseur:
-ParserException.java
-ScannerException.java
-Symbole.java

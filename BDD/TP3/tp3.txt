@@ -1,40 +1,48 @@
-TP3 - Benjamin Van Ryseghem
+--TP3 - Benjamin Van Ryseghem
 
 -----------------------------------------------------------
 
-1 - 	SELECT *	
+-- 1 - 	
+		
+		SELECT *	
 		FROM Catalogue, Articles;
 		
-2 - 	SELECT *
+-- 2 - 	
+		SELECT *
 		FROM 	Catalogue 
 				INNER JOIN Articles
 				ON Articles.aid = Catalogue.aid ;
 				
-3 -		SELECT DISTINCT anom
+-- 3 - 	
+			SELECT DISTINCT anom
 		FROM 	Catalogue 
 				INNER JOIN Articles
 				ON Articles.aid = Catalogue.aid ;
 				
-4 -		SELECT anom, prix, fnom
+-- 4 - 	
+			SELECT anom, prix, fnom
 		FROM 	(Catalogue 
 				INNER JOIN Articles
 				ON Articles.aid = Catalogue.aid) as TMP
 					INNER JOIN Fournisseurs
 					ON TMP.fid = Fournisseurs.fid;
 					
-5 -		SELECT DISTINCT anom
+-- 5 - 	
+			SELECT DISTINCT anom
 		FROM 	Catalogue 
 				INNER JOIN Articles
 				ON Articles.aid = Catalogue.aid
 		WHERE prix < 20 ;
 		
-6 - 	SELECT DISTINCT fnom
+-- 6 - 	
+		SELECT DISTINCT fnom
 		FROM 	Catalogue 
 				INNER JOIN Fournisseurs
 				ON Fournisseurs.fid = Catalogue.fid
 		WHERE prix < 20 ;
 		
-7 - 	SELECT fnom
+-- 7 - 	
+		SELECT fnom
 		FROM Fournisseurs
 		WHERE fid	NOT IN (	SELECT Fournisseurs.fid
 		 						FROM 	Fournisseurs
@@ -42,7 +50,8 @@ TP3 - Benjamin Van Ryseghem
 										ON Fournisseurs.fid = Catalogue.fid
 								WHERE prix < 20);
 								
-8 - 	SELECT fnom
+-- 8 - 	
+		SELECT fnom
 		FROM 	Fournisseurs
 				INNER JOIN (	Catalogue
 								INNER JOIN Articles
@@ -52,7 +61,8 @@ TP3 - Benjamin Van Ryseghem
 		WHERE acoul='vert';
 		
 		
-9 - 	SELECT DISTINCT Articles.aid
+-- 9 - 	
+		SELECT DISTINCT Articles.aid
 		FROM 	(Articles
 				INNER JOIN (	Catalogue
 								INNER JOIN Fournisseurs
@@ -62,7 +72,8 @@ TP3 - Benjamin Van Ryseghem
 		WHERE ((acoul = 'rouge' OR acoul='magenta') AND prix < 25 );
 
 
-10 - 	SELECT DISTINCT Articles.aid
+-- 10 - 	
+		SELECT DISTINCT Articles.aid
 		FROM 	(Articles
 				INNER JOIN (	Catalogue
 								INNER JOIN Fournisseurs
@@ -71,11 +82,12 @@ TP3 - Benjamin Van Ryseghem
 				ON Articles.aid = TMP.aid)
 		WHERE (acoul = 'rouge' OR acoul='magenta' AND prix < 25 );
 
-Le AND est prioritaire sur le OR, donc ici, on a (les articles rouge) ou (les articles qui sont magentas et dont le prix est inferieur a 25).
-La verification sur le prix des articles rouges n'est pas effectuee.
+-- Le AND est prioritaire sur le OR, donc ici, on a (les articles rouge) ou (les articles qui sont magentas et dont le prix est inferieur a 25).
+-- La verification sur le prix des articles rouges n'est pas effectuee.
 
 
-11 - 	SELECT fid
+-- 11 - 	
+		SELECT fid
 		FROM Fournisseurs
 		WHERE fid NOT IN (	SELECT Fournisseurs.fid
 							FROM 	Fournisseurs 
@@ -84,7 +96,8 @@ La verification sur le prix des articles rouges n'est pas effectuee.
 							WHERE prix <= 10000 );
 							
 
-12 - 	SELECT TMP1.aid AS aidvert, TMP2.aid AS aidrouge
+-- 12 - 	
+		SELECT TMP1.aid AS aidvert, TMP2.aid AS aidrouge
 		FROM (	SELECT aid
 				FROM Articles
 				WHERE acoul = 'vert') AS TMP1,
@@ -92,7 +105,8 @@ La verification sur le prix des articles rouges n'est pas effectuee.
 				FROM Articles
 				WHERE acoul = 'rouge') AS TMP2;
 				
-13 -	SELECT aid
+-- 13 - 	
+		SELECT aid
 		FROM Articles	
 		EXCEPT (	SELECT aid
 				FROM Articles
@@ -111,13 +125,15 @@ La verification sur le prix des articles rouges n'est pas effectuee.
 				WHERE aid NOT IN (	SELECT aid
 									FROM Catalogue );
 
-14 - 	SELECT anom
+-- 14 - 	
+		SELECT anom
 		FROM Articles
 		WHERE aid NOT IN (	SELECT aid
 							FROM Catalogue );	
 							
 							
-15 - 	SELECT fid
+-- 15 - 	
+		SELECT fid
 		FROM Fournisseurs
 		WHERE fid IN (	SELECT fid
 						FROM 	Articles
@@ -131,7 +147,8 @@ La verification sur le prix des articles rouges n'est pas effectuee.
 								ON Articles.aid = Catalogue.aid
 						WHERE acoul ='rouge');	
 						
-16 -	SELECT fnom
+-- 16 - 	
+		SELECT fnom
 		FROM Fournisseurs
 		WHERE fid IN (	SELECT fid
 						FROM 	Articles
@@ -139,12 +156,14 @@ La verification sur le prix des articles rouges n'est pas effectuee.
 								ON Articles.aid = Catalogue.aid
 						WHERE acoul = 'noir');		
 						
-17 - 	SELECT DISTINCT c1.aid 
+-- 17 - 	
+		SELECT DISTINCT c1.aid 
 		FROM Catalogue AS c1, Catalogue AS c2
 		WHERE c1.aid = c2.aid AND c1.fid <> c2.fid;
 		
 		
-18 - 	SELECT fnom
+-- 18 - 	
+		SELECT fnom
 		FROM Fournisseurs
 		WHERE fid NOT IN (	SELECT fid
 						FROM 	Articles

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="774" maximized="true" width="1618" x="0" y="22">
+<window height="774" maximized="true" width="1920" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -27,20 +27,35 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1311245822915" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1311245822915" focus="true" label="Workspace - Debug">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScanner.java" partName="TestScanner.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/src/scanner/TestScanner.java" title="TestScanner.java" tooltip="COO-TP2-Genericity/src/scanner/TestScanner.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP2-Genericity/src/scanner/TestScanner.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="285" selectionTopPixel="88"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeper.java" partName="MineSweeper.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/src/MineSweeper.java" title="MineSweeper.java" tooltip="COO-TP3-MineSweeper/src/MineSweeper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP3-MineSweeper/src/MineSweeper.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4456" selectionTopPixel="189"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cell.java" partName="Cell.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/src/Cell.java" title="Cell.java" tooltip="COO-TP3-MineSweeper/src/Cell.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP3-MineSweeper/src/Cell.java"/>
+<editorState selectionHorizontalPixel="148" selectionLength="0" selectionOffset="1164" selectionTopPixel="712"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BombCell.java" partName="BombCell.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/src/BombCell.java" title="BombCell.java" tooltip="COO-TP3-MineSweeper/src/BombCell.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP3-MineSweeper/src/BombCell.java"/>
+<editorState selectionHorizontalPixel="129" selectionLength="0" selectionOffset="444" selectionTopPixel="186"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmptyCell.java" partName="EmptyCell.java" path="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/src/EmptyCell.java" title="EmptyCell.java" tooltip="COO-TP3-MineSweeper/src/EmptyCell.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP3-MineSweeper/src/EmptyCell.java"/>
+<editorState selectionHorizontalPixel="108" selectionLength="0" selectionOffset="438" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -123,7 +138,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.debug.ui.DebugPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="org.eclipse.jdt.ui.JavaPerspective" id="&lt;Java&gt;" label="&lt;Java&gt;"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -396,8 +411,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.5893186" ratioLeft="640" ratioRight="446" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.5787172" ratioLeft="397" ratioRight="289" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -477,25 +492,34 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.cdt.debug.ui.executablesView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74931127" ratioLeft="816" ratioRight="273" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74931127" ratioLeft="816" ratioRight="273" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
@@ -503,28 +527,38 @@
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.tm.tcf.TraceView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@593a7983" ratio="0.4497549" ratioLeft="367" ratioRight="449" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@593a7983" ratio="0.4497549" ratioLeft="367" ratioRight="449" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@593a7983">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75571316" ratioLeft="959" ratioRight="310" relationship="2" relative="org.eclipse.ui.internal.ViewStack@593a7983">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.15336135" ratioLeft="219" ratioRight="1209" relationship="2" relative="org.eclipse.ui.internal.ViewStack@593a7983"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.30962342" ratioLeft="296" ratioRight="660" relationship="2" relative="org.eclipse.ui.internal.ViewStack@593a7983"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
@@ -540,10 +574,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP2-Genericity/src/scanner/TestScanner.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/MineSweeper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/MineSweeperUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/BombCell.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/Cell.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/EmptyCell.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP3-MineSweeper/src/CellButton.java"/>
 </editors>
-<item active="true" historyLabel="TestScanner.java" index="0">
-<position info="not_deleted" x="362" y="0"/>
+<item historyLabel="MineSweeperUI.java" index="1">
+<position info="not_deleted" x="2830" y="0"/>
+</item>
+<item historyLabel="MineSweeperUI.java" index="1">
+<position info="not_deleted" x="2342" y="8"/>
+</item>
+<item historyLabel="MineSweeper.java" index="0">
+<position/>
+</item>
+<item historyLabel="MineSweeper.java" index="0">
+<position info="not_deleted" x="1246" y="10"/>
+</item>
+<item historyLabel="MineSweeper.java" index="0">
+<position info="not_deleted" x="1239" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="MineSweeper.java" index="0">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="355" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="715" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="940" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1179" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1102" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1144" y="28"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="626" y="0"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="439" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="626" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1144" y="28"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="632" y="40"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="516" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1144" y="28"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="516" y="0"/>
+</item>
+<item historyLabel="MineSweeper.java" index="0">
+<position info="not_deleted" x="4456" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1086" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CellButton.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CellButton.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="439" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1057" y="0"/>
+</item>
+<item historyLabel="BombCell.java" index="2">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="Cell.java" index="3">
+<position info="not_deleted" x="1164" y="0"/>
+</item>
+<item active="true" historyLabel="EmptyCell.java" index="4">
+<position info="not_deleted" x="439" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -551,6 +737,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@593a7983"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -558,54 +750,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestScanner.java" tooltip="COO-TP2-Genericity/src/scanner/TestScanner.java">
-<persistable path="/COO-TP2-Genericity/src/scanner/TestScanner.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmptyCell.java" tooltip="COO-TP3-MineSweeper/src/EmptyCell.java">
+<persistable path="/COO-TP3-MineSweeper/src/EmptyCell.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArcEnCielTest.java" tooltip="COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java">
-<persistable path="/COO-TP2-Genericity/src/enumeration/ArcEnCielTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CellButton.java" tooltip="COO-TP3-MineSweeper/src/CellButton.java">
+<persistable path="/COO-TP3-MineSweeper/src/CellButton.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ramasseur.java" tooltip="COO-TP2-Genericity/src/generics/Ramasseur.java">
-<persistable path="/COO-TP2-Genericity/src/generics/Ramasseur.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BombCell.java" tooltip="COO-TP3-MineSweeper/src/BombCell.java">
+<persistable path="/COO-TP3-MineSweeper/src/BombCell.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ramasseur.java" tooltip="FRANCIS_COO/src/generics/Ramasseur.java">
-<persistable path="/FRANCIS_COO/src/generics/Ramasseur.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="free0.gif" tooltip="COO-TP3-MineSweeper/icons/free0.gif">
+<persistable path="/COO-TP3-MineSweeper/icons/free0.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="pp.c" tooltip="C_TP1/src/pp.c">
-<persistable path="/C_TP1/src/pp.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cell.java" tooltip="COO-TP3-MineSweeper/src/Cell.java">
+<persistable path="/COO-TP3-MineSweeper/src/Cell.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="file.c" tooltip="C_TP1/src/file.c">
-<persistable path="/C_TP1/src/file.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeper.java" tooltip="COO-TP3-MineSweeper/src/MineSweeper.java">
+<persistable path="/COO-TP3-MineSweeper/src/MineSweeper.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="TP1.c" tooltip="C_TP1/src/TP1.c">
-<persistable path="/C_TP1/src/TP1.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="unknown.gif" tooltip="COO-TP3-MineSweeper/icons/unknown.gif">
+<persistable path="/COO-TP3-MineSweeper/icons/unknown.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="anLexInit.lex" tooltip="COMPIL-TP2/spec/anLexInit.lex">
-<persistable path="/COMPIL-TP2/spec/anLexInit.lex"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GenerationLatexPlanningMaster.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java">
+<persistable path="/COMPIL_TP1/planningMaster/planningMaster/GenerationLatexPlanningMaster.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ParserException.java" tooltip="COMPIL-TP2/src/init/analyseurs/ParserException.java">
-<persistable path="/COMPIL-TP2/src/init/analyseurs/ParserException.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LancerGeneration.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java">
+<persistable path="/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LanceurAnalyseurLexical.java" tooltip="COMPIL-TP2/src/init/executeurs/LanceurAnalyseurLexical.java">
 <persistable path="/COMPIL-TP2/src/init/executeurs/LanceurAnalyseurLexical.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Symbole.java" tooltip="COMPIL-TP2/src/init/analyseurs/Symbole.java">
-<persistable path="/COMPIL-TP2/src/init/analyseurs/Symbole.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="unknown.gif" tooltip="MineSweeper/icons/unknown.gif">
+<persistable path="/MineSweeper/icons/unknown.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoserLegume.java" tooltip="COO-TP2-Genericity/src/generics/ListChoserLegume.java">
-<persistable path="/COO-TP2-Genericity/src/generics/ListChoserLegume.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="marked.gif" tooltip="MineSweeper/icons/marked.gif">
+<persistable path="/MineSweeper/icons/marked.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListChoserLegumeCloneable.java" tooltip="COO-TP2-Genericity/src/generics/ListChoserLegumeCloneable.java">
-<persistable path="/COO-TP2-Genericity/src/generics/ListChoserLegumeCloneable.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="mine.gif" tooltip="MineSweeper/icons/mine.gif">
+<persistable path="/MineSweeper/icons/mine.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Carotte.java" tooltip="COO-TP2-Genericity/src/generics/Carotte.java">
-<persistable path="/COO-TP2-Genericity/src/generics/Carotte.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="wrong.gif" tooltip="MineSweeper/icons/wrong.gif">
+<persistable path="/MineSweeper/icons/wrong.gif"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rutabaga.java" tooltip="COO-TP2-Genericity/src/generics/Rutabaga.java">
-<persistable path="/COO-TP2-Genericity/src/generics/Rutabaga.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="free8.gif" tooltip="MineSweeper/icons/free8.gif">
+<persistable path="/MineSweeper/icons/free8.gif"/>
 </file>
 </mruList>
 </workbench>

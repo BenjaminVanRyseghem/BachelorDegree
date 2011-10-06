@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="715" key="DIALOG_WIDTH"/>
-		<item value="407" key="DIALOG_Y_ORIGIN"/>
+		<item value="172" key="DIALOG_Y_ORIGIN"/>
+		<item value="609" key="DIALOG_X_ORIGIN"/>
 		<item value="606" key="DIALOG_HEIGHT"/>
-		<item value="835" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="&apos;&amp;&apos;" key="selection"/>
+		<item value="println" key="selection"/>
 		<list key="findhistory">
+			<item value="println"/>
+			<item value="width"/>
+			<item value="new"/>
+			<item value="model"/>
+			<item value="system"/>
+			<item value="systet"/>
+			<item value="reveal"/>
 			<item value="&apos;&amp;&apos;"/>
-			<item value="&amp;"/>
-			<item value=""/>
-			<item value="\&apos;"/>
-			<item value="&apos;{&apos;"/>
-			<item value="*"/>
-			<item value="previousc[0] = c;"/>
-			<item value="previousc[1] = previousc[0];"/>
 		</list>
 		<list key="replacehistory">
 			<item value="setCharacter(c);"/>
@@ -34,8 +34,8 @@
 	<section name="org.eclipse.cdt.internal.ui.preferences.CTemplatePreferencePage$CEditTemplateDialog_dialogBounds">
 		<item value="597" key="DIALOG_WIDTH"/>
 		<item value="129" key="DIALOG_Y_ORIGIN"/>
-		<item value="290" key="DIALOG_HEIGHT"/>
 		<item value="56" key="DIALOG_X_ORIGIN"/>
+		<item value="290" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
