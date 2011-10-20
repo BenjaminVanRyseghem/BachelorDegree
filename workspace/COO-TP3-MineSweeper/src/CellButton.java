@@ -7,9 +7,16 @@ import javax.swing.Icon;
 import javax.swing.JLabel;
 
 
+/**
+ * @author  benjamin
+ */
 public class CellButton extends JLabel {
 
 	private static final long serialVersionUID = 1L;
+	/**
+	 * @uml.property  name="cell"
+	 * @uml.associationEnd  
+	 */
 	final Cell cell;
 	
 	

@@ -10,8 +10,15 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 
+/**
+ * @author  benjamin
+ */
 public class MineSweeperUI implements Observer {
 
+	/**
+	 * @uml.property  name="model"
+	 * @uml.associationEnd  
+	 */
 	protected MineSweeper model;
 	protected JFrame frame;
 	protected JLabel label;
@@ -59,8 +66,15 @@ public class MineSweeperUI implements Observer {
 	}
 	
 	
+	/**
+	 * @author  benjamin
+	 */
 	private class MenuActionListener implements ActionListener {
 		
+		/**
+		 * @uml.property  name="model"
+		 * @uml.associationEnd  
+		 */
 		private MineSweeper model;	
 		
 		private MenuActionListener(MineSweeper model){

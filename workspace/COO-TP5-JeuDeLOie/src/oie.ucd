@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1180,894" id="oie" metadata="uml2-1.0" initialized="true" scrolledY="653" tag="1000" key="32303037303533312D3130303020434F4F2D5450352D4A657544654C4F69652F62656E6A616D696E">
+  <children xsi:type="editmodel:ClassEditModel" name="Player" location="1003,50" size="110,103" id="oie/Player" runTimeClassModel="Player(Ljava.lang.String;Loie.Cell;),twoDicesThrow(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,54">
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/Player#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="twoDicesThrow" id="oie/Player#twoDicesThrow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Player" id="oie/Player#Player(Ljava.lang.String;Loie.Cell;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Game" location="816,50" size="137,247" id="oie/Game" runTimeClassModel="main([Ljava.lang.String;),turn,Game(Loie.Board;),addPlayer(Loie.Player;),thePlayers,update(),addPlayerByName(Ljava.lang.String;),board,play(),toString(),asciiUI()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="board" id="oie/Game#board"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thePlayers" id="oie/Game#thePlayers"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="turn" id="oie/Game#turn"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Game" id="oie/Game#Game(Loie.Board;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPlayer" id="oie/Game#addPlayer(Loie.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="play" id="oie/Game#play()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="asciiUI" id="oie/Game#asciiUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/Game#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="oie/Game#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPlayerByName" id="oie/Game#addPlayerByName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="update" id="oie/Game#update()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GooseCell" location="50,717" size="101,103" id="oie/GooseCell" runTimeClassModel="setPlayer(Loie.Player;),GooseCell(Loie.Game;I),consequence(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,54">
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" id="oie/GooseCell#consequence(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GooseCell" id="oie/GooseCell#GooseCell(Loie.Game;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="oie/GooseCell#setPlayer(Loie.Player;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0" autoLocated="true" id="oie/BonusCell&lt;-oie/GooseCell" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="MalusCell" location="411,582" size="101,85" id="oie/MalusCell" runTimeClassModel="MalusCell(Loie.Game;I),consequence(I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MalusCell" id="oie/MalusCell#MalusCell(Loie.Game;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" id="oie/MalusCell#consequence(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="oie/BasicCell&lt;-oie/MalusCell" source="//@children.3" target="//@children.4/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,39"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="BonusCell" location="54,582" size="93,85" id="oie/BonusCell" runTimeClassModel="setPlayer(Loie.Player;),BonusCell(Loie.Game;I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusCell" id="oie/BonusCell#BonusCell(Loie.Game;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="oie/BonusCell#setPlayer(Loie.Player;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0" autoLocated="true" id="oie/BasicCell&lt;-oie/BonusCell" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,211" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Cell" location="121,50" size="102,185" id="oie/Cell" runTimeClassModel="removePlayer(Loie.Player;),setPlayer(Loie.Player;),isBusy(),canBeLeft(),getIndex(),getPlayer(),consequence(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,126">
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="oie/Cell#canBeLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" location="220,115" id="oie/Cell#consequence(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="oie/Cell#getIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayer" location="-7,99" id="oie/Cell#getPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="oie/Cell#isBusy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="oie/Cell#setPlayer(Loie.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePlayer" id="oie/Cell#removePlayer(Loie.Player;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TeleportationCell" location="181,717" size="132,121" id="oie/TeleportationCell" runTimeClassModel="TeleportationCell(Loie.Game;II),destinationIndex,consequence(I),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="destinationIndex" id="oie/TeleportationCell#destinationIndex"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,54">
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" id="oie/TeleportationCell#consequence(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TeleportationCell" id="oie/TeleportationCell#TeleportationCell(Loie.Game;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/TeleportationCell#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="oie/BonusCell&lt;-oie/TeleportationCell" source="//@children.6" target="//@children.2/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StartingCell" location="182,285" size="125,247" id="oie/StartingCell" runTimeClassModel="removePlayer(Loie.Player;),setPlayer(Loie.Player;),getPlayers(),players,canBeLeft(),isBusy(),getIndex(),getPlayer(),StartingCell(Loie.Game;),consequence(I),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="players" id="oie/StartingCell#players"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,180">
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="oie/StartingCell#canBeLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" location="17,67" id="oie/StartingCell#consequence(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="oie/StartingCell#getIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="oie/StartingCell#getPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="oie/StartingCell#isBusy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="oie/StartingCell#setPlayer(Loie.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePlayer" id="oie/StartingCell#removePlayer(Loie.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="StartingCell" id="oie/StartingCell#StartingCell(Loie.Game;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayers" id="oie/StartingCell#getPlayers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/StartingCell#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.8/@sourceConnections.0" autoLocated="true" id="oie/Cell&lt;-oie/StartingCell" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,185" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="BasicCell" location="50,285" size="102,211" id="oie/BasicCell" runTimeClassModel="removePlayer(Loie.Player;),index,BasicCell(Loie.Game;I),isBusy(),canBeLeft(),getIndex(),game,consequence(I),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="index" id="oie/BasicCell#index"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="game" id="oie/BasicCell#game"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,126">
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="oie/BasicCell#canBeLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" id="oie/BasicCell#consequence(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndex" id="oie/BasicCell#getIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBusy" id="oie/BasicCell#isBusy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BasicCell" id="oie/BasicCell#BasicCell(Loie.Game;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/BasicCell#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePlayer" id="oie/BasicCell#removePlayer(Loie.Player;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="oie/Cell&lt;-oie/BasicCell" source="//@children.8" target="//@children.7/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,153"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="WaitingCell" location="343,717" size="105,157" id="oie/WaitingCell" runTimeClassModel="removePlayer(Loie.Player;),setPlayer(Loie.Player;),canBeLeft(),turnsToWait,WaitingCell(Loie.Game;II),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="turnsToWait" location="5,36" id="oie/WaitingCell#turnsToWait"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,90">
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="oie/WaitingCell#canBeLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WaitingCell" id="oie/WaitingCell#WaitingCell(Loie.Game;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="oie/WaitingCell#setPlayer(Loie.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/WaitingCell#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removePlayer" id="oie/WaitingCell#removePlayer(Loie.Player;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.0" autoLocated="true" id="oie/MalusCell&lt;-oie/WaitingCell" source="//@children.9" target="//@children.3" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TrapCell" location="478,717" size="101,121" id="oie/TrapCell" runTimeClassModel="canBeLeft(),TrapCell(Loie.Game;I),consequence(I),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,72">
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLeft" id="oie/TrapCell#canBeLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TrapCell" id="oie/TrapCell#TrapCell(Loie.Game;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/TrapCell#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="consequence" id="oie/TrapCell#consequence(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="oie/MalusCell&lt;-oie/TrapCell" source="//@children.10" target="//@children.9/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ClassicBoard" location="629,311" size="137,121" id="oie/ClassicBoard" runTimeClassModel="ClassicBoard(),startingCell,initBoard(),setGame(Loie.Game;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="startingCell" id="oie/ClassicBoard#startingCell"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,54">
+      <children xsi:type="editmodel:MethodEditModel" name="initBoard" id="oie/ClassicBoard#initBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ClassicBoard" id="oie/ClassicBoard#ClassicBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGame" id="oie/ClassicBoard#setGame(Loie.Game;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="oie/Board&lt;-oie/ClassicBoard" source="//@children.11" target="//@children.12" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,211"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0" name="Board" location="643,50" size="108,211" id="oie/Board" runTimeClassModel="Board(I),getStartingCell(),initBoard(),theCells,game,nbOfCells,asciiUI(),toString(),getCell(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="nbOfCells" id="oie/Board#nbOfCells"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="theCells" id="oie/Board#theCells"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="game" id="oie/Board#game"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Board" id="oie/Board#Board(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCell" id="oie/Board#getCell(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initBoard" id="oie/Board#initBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="oie/Board#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="asciiUI" id="oie/Board#asciiUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStartingCell" id="oie/Board#getStartingCell()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

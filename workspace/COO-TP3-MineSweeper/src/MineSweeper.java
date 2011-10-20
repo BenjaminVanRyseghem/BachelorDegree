@@ -1,16 +1,19 @@
 import java.util.Observable;
 
 /**
- * 
  * Model of the minesweeper
- * 
- * @author Benjamin Van Ryseghem
- * @version 1.0
- * 
+ * @author  Benjamin Van Ryseghem
+ * @version  1.0
  */
 public class MineSweeper extends Observable {
 
+	/**
+	 * @uml.property  name="width"
+	 */
 	protected int width = 0;
+	/**
+	 * @uml.property  name="height"
+	 */
 	protected int height = 0;
 	protected int currentBombs;
 	protected int maxBombs;
@@ -19,16 +22,28 @@ public class MineSweeper extends Observable {
 	protected int toBeRevealed = 0;
 	protected boolean win = true; 
 	
+	/**
+	 * @uml.property  name="cells"
+	 * @uml.associationEnd  multiplicity="(0 -1)"
+	 */
 	Cell[][] cells;
 
 	public MineSweeper(int height, int width, int maxBombs){
 		this.initialize(height, width, maxBombs);
 	}
 	
+	/**
+	 * @return
+	 * @uml.property  name="width"
+	 */
 	protected int getWidth() {
 		return width;
 	}
 
+	/**
+	 * @return
+	 * @uml.property  name="height"
+	 */
 	protected int getHeight() {
 		return height;
 	}
@@ -37,6 +52,10 @@ public class MineSweeper extends Observable {
 		return gameIsFinished;
 	}
 
+	/**
+	 * @return
+	 * @uml.property  name="cells"
+	 */
 	protected Cell[][] getCells() {
 		return cells;
 	}
