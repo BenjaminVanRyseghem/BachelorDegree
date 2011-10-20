@@ -1,4 +1,5 @@
-#Tue Sep 27 18:16:12 CEST 2011
+#Tue Oct 11 16:31:23 CEST 2011
+sourceHoverBackgroundColor=250,251,197
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 command=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/javadoc
@@ -21,6 +22,7 @@ content_assist_proposals_background=255,255,255
 org.eclipse.jdt.ui.formatterprofiles.version=12
 org.eclipse.jdt.internal.ui.navigator.layout=2
 content_assist_number_of_computers=13
+LexicalSortingAction.org.eclipse.jdt.ui.MembersView.isChecked=true
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>

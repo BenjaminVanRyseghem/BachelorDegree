@@ -1,4 +1,4 @@
-#Thu Oct 06 17:40:44 CEST 2011
+#Tue Oct 11 15:38:53 CEST 2011
 CLOSE_UNRELATED_PROJECTS=true
 SAVE_ALL_BEFORE_BUILD=true
 REFRESH_WORKSPACE_ON_STARTUP=true
@@ -8,6 +8,6 @@ quickStart=true
 tipsAndTricks=true
 TASKS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
-platformState=1311245799395
+platformState=1311245800020
 EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 OPEN_REQUIRED_PROJECTS=always

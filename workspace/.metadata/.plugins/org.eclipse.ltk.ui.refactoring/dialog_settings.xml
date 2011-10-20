@@ -9,5 +9,7 @@
 		<item value="900" key="width"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="*" key="patterns"/>
+		<item value="false" key="moveWizard.updateQualifiedNames"/>
 	</section>
 </section>
