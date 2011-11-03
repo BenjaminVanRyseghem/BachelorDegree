@@ -1,17 +1,30 @@
 package oie;
 
 
+/**
+ * The Class ClassicBoard.
+ * Implementation of Board which represent the callsic game board
+ */
 public class ClassicBoard extends Board {
 
+	/**
+	 * Instantiates a new classic board.
+	 */
 	public ClassicBoard(){
 		super(63);
 	}
 	
+	/**
+	 * @see oie.Board#setGame(oie.Game)
+	 */
 	public void setGame(Game game){
 		super.setGame(game);
 		startingCell = new StartingCell(this.getGame());
 	}
 	
+	/**
+	 * @see oie.Board#initBoard()
+	 */
 	@Override
 	public void initBoard(){	
 		Cell[] theCells = new Cell[this.getNbOfCells()+1];
@@ -35,13 +48,12 @@ public class ClassicBoard extends Board {
 		this.setTheCells(theCells);
 	}
 
-	/**
-	 * @uml.property  name="startingCell"
-	 */
+	/** The starting cell. @uml.property  name="startingCell" */
 	private StartingCell startingCell;
 
 	/**
-	 * Getter of the property <tt>startingCell</tt>
+	 * Getter of the property <tt>startingCell</tt>.
+	 *
 	 * @return  Returns the startingCell.
 	 * @uml.property  name="startingCell"
 	 */

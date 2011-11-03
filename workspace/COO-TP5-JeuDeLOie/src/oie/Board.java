@@ -49,11 +49,19 @@ public abstract class Board {
 
 
 	/**
+	 * initialize the cells of the board
 	 */
 	public abstract void initBoard();
+	
+	/**
+	 * 	Return the first cell where players start
+	 * 	 * @return the starting cell
+	 */
 	public abstract StartingCell getStartingCell();
 	
 	/**
+	 * Return the cell the index equals the parameter
+	 * @return a cell
 	 */
 	public Cell getCell(int numero){
 		return this.getTheCells()[numero];
@@ -90,6 +98,10 @@ public abstract class Board {
 		return result;
 	}
 	
+	/**
+	 * 
+	 * @return a string representation of the board
+	 */
 	public String asciiUI(){
 		String result = "";
 		for (Cell cell : this.getTheCells()){

@@ -1,21 +1,29 @@
 package oie;
 
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class WaitingCell.
+ */
 public class WaitingCell extends MalusCell {
 
+	/* (non-Javadoc)
+	 * @see oie.BasicCell#canBeLeft()
+	 */
 	@Override
 	public boolean canBeLeft() {
 		return (this.getGame().getTurn() == turnOfRelease);
 	}
 	
-	/**
-	 * @uml.property  name="turnsToWait"
-	 */
+	/** The turns to wait. @uml.property  name="turnsToWait" */
 	private int turnsToWait;
+	
+	/** The turn of release. */
 	private int turnOfRelease = -1;
 
 	/**
-	 * Getter of the property <tt>turnsToWait</tt>
+	 * Getter of the property <tt>turnsToWait</tt>.
+	 *
 	 * @return  Returns the turnsToWait.
 	 * @uml.property  name="turnsToWait"
 	 */
@@ -24,7 +32,8 @@ public class WaitingCell extends MalusCell {
 	}
 
 	/**
-	 * Setter of the property <tt>turnsToWait</tt>
+	 * Setter of the property <tt>turnsToWait</tt>.
+	 *
 	 * @param turnsToWait  The turnsToWait to set.
 	 * @uml.property  name="turnsToWait"
 	 */
@@ -32,6 +41,9 @@ public class WaitingCell extends MalusCell {
 		this.turnsToWait = turnsToWait;
 	}
 
+	/* (non-Javadoc)
+	 * @see oie.MalusCell#setPlayer(oie.Player)
+	 */
 	public void setPlayer(Player player){
 		super.setPlayer(player);
 		int currentTurn = this.getGame().getTurn();
@@ -43,17 +55,28 @@ public class WaitingCell extends MalusCell {
 	}
 		
 	/**
+	 * Instantiates a new waiting cell.
+	 *
+	 * @param game the game
+	 * @param index the index
+	 * @param turnsToWait the turns to wait
 	 */
 	public WaitingCell(Game game, int index, int turnsToWait){
 		super(game, index);
 		this. turnsToWait = turnsToWait;
 	}
 	
+	/* (non-Javadoc)
+	 * @see oie.BasicCell#removePlayer(oie.Player)
+	 */
 	@Override
 	public void removePlayer(Player player){
 		super.removePlayer(player);
 	}
 	
+	/* (non-Javadoc)
+	 * @see oie.BasicCell#toString()
+	 */
 	@Override
 	public String toString() {
 		return "W("+index+","+turnsToWait+","+turnOfRelease+")";

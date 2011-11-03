@@ -31,6 +31,11 @@ public interface Cell {
 	/** gets the player in this cell <tt>null</tt> if none */
 	public Player getPlayer();
 	
+	/**
+	 * Remove the player provided as parameter from this cell.
+	 *
+	 * @param player the player
+	 */
 	public void removePlayer(Player player);
 	
 }// Cell

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="781,623" id="action" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020434F4F2D5450362D50697363696E652F62656E6A616D696E">
+  <children xsi:type="editmodel:ClassEditModel" name="Scheduler" location="89,518" size="97,85" id="action/Scheduler" runTimeClassModel="add(Laction.Action;),internalStep()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,36">
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="action/Scheduler#add(Laction.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="internalStep" id="action/Scheduler#internalStep()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0" autoLocated="true" id="action/Ordonnanceur&lt;-action/Scheduler" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,175" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Action" location="130,50" size="110,193" id="action/Action" runTimeClassModel="message,step(),Action(Ljava.lang.String;),stopCondition(),isOver(),state,Action(),internalStep()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="message" id="action/Action#message"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="state" id="action/Action#state"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Action" id="action/Action#Action()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Action" id="action/Action#Action(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="internalStep" id="action/Action#internalStep()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOver" id="action/Action#isOver()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="step" id="action/Action#step()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopCondition" id="action/Action#stopCondition()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Waiting" location="50,293" size="133,157" id="action/Waiting" runTimeClassModel="steppingTime,Waiting(I),stopCondition(),Waiting(Ljava.lang.String;I),internalStep(),originalMessage">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="steppingTime" id="action/Waiting#steppingTime"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="originalMessage" id="action/Waiting#originalMessage"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Waiting" id="action/Waiting#Waiting(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Waiting" id="action/Waiting#Waiting(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="internalStep" id="action/Waiting#internalStep()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopCondition" id="action/Waiting#stopCondition()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="action/Action&lt;-action/Waiting" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,193" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Scenario" location="216,518" size="97,85" id="action/Scenario" runTimeClassModel="add(Laction.Action;),internalStep()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,36">
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="action/Scenario#add(Laction.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="internalStep" id="action/Scenario#internalStep()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="action/Ordonnanceur&lt;-action/Scenario" source="//@children.3" target="//@children.0/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Ordonnanceur" location="191,293" size="147,175" id="action/Ordonnanceur" runTimeClassModel="decrementIndex(),incrementIndex(),stopCondition(),add(Laction.Action;),internalStep(),indexCurrentAction,actions">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="actions" id="action/Ordonnanceur#actions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indexCurrentAction" id="action/Ordonnanceur#indexCurrentAction"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,90">
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="action/Ordonnanceur#add(Laction.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementIndex" id="action/Ordonnanceur#decrementIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementIndex" id="action/Ordonnanceur#incrementIndex()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="internalStep" id="action/Ordonnanceur#internalStep()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopCondition" id="action/Ordonnanceur#stopCondition()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="action/Action&lt;-action/Ordonnanceur" source="//@children.4" target="//@children.2/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

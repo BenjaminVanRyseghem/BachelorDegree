@@ -3,17 +3,22 @@ package oie;
 import java.util.List;
 import java.util.ArrayList;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Game.
+ */
 public class Game {
 
 
-	/**
-	 * @uml.property  name="board"
-	 */
+	/** The board. @uml.property  name="board" */
 	private Board board;
+	
+	/** The final index. */
 	private int finalIndex = 63;
 
 	/**
-	 * Getter of the property <tt>board</tt>
+	 * Getter of the property <tt>board</tt>.
+	 *
 	 * @return  Returns the board.
 	 * @uml.property  name="board"
 	 */
@@ -22,7 +27,8 @@ public class Game {
 	}
 
 	/**
-	 * Setter of the property <tt>board</tt>
+	 * Setter of the property <tt>board</tt>.
+	 *
 	 * @param board  The board to set.
 	 * @uml.property  name="board"
 	 */
@@ -30,13 +36,12 @@ public class Game {
 		this.board = board;
 	}
 
-	/**
-	 * @uml.property  name="thePlayers"
-	 */
+	/** The players. @uml.property  name="thePlayers" */
 	private List<Player> thePlayers = new ArrayList<Player>();
 
 	/**
-	 * Getter of the property <tt>thePlayers</tt>
+	 * Getter of the property <tt>thePlayers</tt>.
+	 *
 	 * @return  Returns the thePlayers.
 	 * @uml.property  name="thePlayers"
 	 */
@@ -45,7 +50,8 @@ public class Game {
 	}
 
 	/**
-	 * Setter of the property <tt>thePlayers</tt>
+	 * Setter of the property <tt>thePlayers</tt>.
+	 *
 	 * @param thePlayers  The thePlayers to set.
 	 * @uml.property  name="thePlayers"
 	 */
@@ -55,16 +61,29 @@ public class Game {
 
 		
 	/**
+	 * Adds the player.
+	 *
+	 * @param player the player
 	 */
 	public void addPlayer(Player player){
 		this.thePlayers.add(player);
 	}
 	
+	/**
+	 * Adds the player by name.
+	 *
+	 * @param name the name
+	 */
 	public void addPlayerByName(String name){
 		this.thePlayers.add(new Player(name, this.getBoard().getStartingCell()));
 	}
 	
 	
+	/**
+	 * Game is over.
+	 *
+	 * @return true, if successful
+	 */
 	private boolean gameIsOver(){
 		for(Player player : thePlayers){
 			if(player.cell.getIndex() == this.finalIndex) return true;
@@ -72,6 +91,9 @@ public class Game {
 		return false;
 	}
 		
+	/**
+	 * Play a turn.
+	 */
 	private void playATurn(){
 		turn ++;
 		System.out.println("New turn: "+turn);
@@ -98,6 +120,7 @@ public class Game {
 	}
 	
 	/**
+	 * Play.
 	 */
 	public void play(){
 		while(!this.gameIsOver() && (turn < 100)){
@@ -109,6 +132,9 @@ public class Game {
 	
 		
 	/**
+	 * Instantiates a new game.
+	 *
+	 * @param board the board
 	 */
 	public Game(Board board){
 		this.board = board;
@@ -116,13 +142,12 @@ public class Game {
 		this.board.initBoard();
 	}
 
-	/**
-	 * @uml.property  name="turn"
-	 */
+	/** The turn. @uml.property  name="turn" */
 	private int turn = 0;
 
 	/**
-	 * Getter of the property <tt>turn</tt>
+	 * Getter of the property <tt>turn</tt>.
+	 *
 	 * @return  Returns the turn.
 	 * @uml.property  name="turn"
 	 */
@@ -131,7 +156,8 @@ public class Game {
 	}
 
 	/**
-	 * Setter of the property <tt>turn</tt>
+	 * Setter of the property <tt>turn</tt>.
+	 *
 	 * @param turn  The turn to set.
 	 * @uml.property  name="turn"
 	 */
@@ -139,6 +165,9 @@ public class Game {
 		this.turn = turn;
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
 	@Override
 	public String toString() {
 		String result = "";
@@ -150,14 +179,27 @@ public class Game {
 		return result;
 	}
 	
+	/**
+	 * Ascii ui.
+	 *
+	 * @return the string
+	 */
 	public String asciiUI(){
 		return board.asciiUI();
 	}
 	
+	/**
+	 * Update.
+	 */
 	public void update(){
 		System.out.println(this.asciiUI());
 	}
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		Board board = new ClassicBoard();
 		Game game = new Game(board);
