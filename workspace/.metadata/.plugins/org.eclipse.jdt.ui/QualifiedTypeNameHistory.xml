@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="planningMaster.ConstantesLatex"/>
 <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="generics.Carotte"/>
 <fullyQualifiedTypeName name="scanner.TestScanner"/>
 <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
@@ -36,4 +35,13 @@
 <fullyQualifiedTypeName name="javax.swing.JTextField"/>
 <fullyQualifiedTypeName name="java.awt.Container"/>
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="action.Action"/>
+<fullyQualifiedTypeName name="ressource.GestionnaireRessources"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ressource.RessourceUser"/>
+<fullyQualifiedTypeName name="ressource.Ressource"/>
+<fullyQualifiedTypeName name="ressource.PrendreRessource"/>
+<fullyQualifiedTypeName name="action.Waiting"/>
+<fullyQualifiedTypeName name="ressource.LibererRessource"/>
 </qualifiedTypeNameHistroy>

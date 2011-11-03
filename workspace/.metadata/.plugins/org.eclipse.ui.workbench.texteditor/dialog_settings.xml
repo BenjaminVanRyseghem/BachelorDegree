@@ -13,8 +13,9 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="System" key="selection"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="nom+"/>
 			<item value="System"/>
 			<item value="println"/>
 			<item value="width"/>
@@ -22,11 +23,10 @@
 			<item value="model"/>
 			<item value="system"/>
 			<item value="systet"/>
-			<item value="reveal"/>
 		</list>
 		<list key="replacehistory">
-			<item value="setCharacter(c);"/>
 			<item value=""/>
+			<item value="setCharacter(c);"/>
 			<item value="ConstantesLatex"/>
 			<item value=" "/>
 		</list>

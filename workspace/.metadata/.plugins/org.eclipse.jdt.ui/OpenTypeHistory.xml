@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=COO-TP4-Displayer/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.util(Observer.class[Observer" modifiers="1537" timestamp="1308351479000"/>
-<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{Cell.java[Cell" modifiers="513" timestamp="1318951461000"/>
-<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{TrapCell.java[TrapCell" modifiers="1" timestamp="1318971979000"/>
-<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{Game.java[Game" modifiers="1" timestamp="1318972995000"/>
+<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{Cell.java[Cell" modifiers="513" timestamp="1319185713000"/>
+<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{TrapCell.java[TrapCell" modifiers="1" timestamp="1319185565000"/>
+<typeInfo handle="=COO-TP5-JeuDeLOie/src&lt;oie{Game.java[Game" modifiers="1" timestamp="1319185433000"/>
+<typeInfo handle="=COO-TP6-Piscine/\/System\/Library\/Java\/JavaVirtualMachines\/1.6.0.jdk\/Contents\/Classes\/classes.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1308351479000"/>
+<typeInfo handle="=COO-TP6-Piscine/src&lt;ressource{Ressource.java[Ressource" modifiers="513" timestamp="1320236158000"/>
 </typeInfoHistroy>
