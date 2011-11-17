@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="500" key="CallHierarchyViewPart.ratio3"/>
+	<item value="500" key="CallHierarchyViewPart.ratio1"/>
+	<item value="1" key="SearchScopeActionGroup.search_scope_type"/>
+	<item value="0" key="CallHierarchyViewPart.call_mode"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="/Users/benjamin/Documents/Scholarship/COMPIL/bcel-5.2.jar" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="CallHierarchyViewPart.orientation"/>
+	<item value="2" key="CallHierarchyViewPart.field_mode"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/src" key="org.eclipse.jdt.ui.last.external.project"/>
+	<list key="SearchScopeActionGroup.working_set">
+	</list>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="false" key="RunnableJar.export.ipwarning"/>
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
@@ -22,17 +30,17 @@
 		<item value="600" key="width"/>
 	</section>
 	<section name="FatJarPackageWizard">
-		<item value="/Users/benjamin/Documents/Education/COO/Piscine.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
-		<item value="Piscine - COO-TP6-Piscine" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="COO-TP7-Facteur/Facteur.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="Ville - COO-TP7-Facteur" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
 		<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/MineSweeper.xml" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="COO-TP7-Facteur/Facteur.jar"/>
 			<item value="/Users/benjamin/Documents/Education/COO/Piscine.jar"/>
 			<item value="/Users/benjamin/Documents/Scholarship/COO/JeuDeLOie.jar"/>
 			<item value="/Users/benjamin/Documents/Scholarship/COO/MineSweeper.jar"/>
 			<item value="/Users/benjamin/Documents/Scholarship/COO/Genericity.jar"/>
-			<item value="/Users/benjamin/Scholarship/COO/Telephonie.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
 			<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/MineSweeper.xml"/>
@@ -69,15 +77,15 @@
 		<item value="protected" key="access"/>
 		<item value="true" key="version"/>
 		<item value="false" key="nodeprecated"/>
-		<item value="/Users/benjamin/Documents/Education/workspace/COO-TP6-Piscine/doc" key="destdir"/>
+		<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/doc" key="destdir"/>
 		<item value="true" key="author"/>
 		<item value="" key="docletname"/>
 		<item value="1.6" key="source"/>
-		<item value="Piscine" key="doctitle"/>
+		<item value="Facteur" key="doctitle"/>
 		<item value="false" key="openinbrowser"/>
 		<item value="false" key="noindex"/>
 		<item value="" key="docletpath"/>
-		<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
+		<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/javadoc.xml" key="antpath"/>
 		<item value="true" key="fromStandard"/>
 		<section name="projects">
 			<section name="COO-TD1-Vote">
@@ -85,19 +93,29 @@
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="C_qsint">
+				<item value="/Users/benjamin/Documents/Education/workspace/C_qsint/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/C_qsint/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="C_Quicksort">
+				<item value="/Users/benjamin/Documents/Education/workspace/C_Quicksort/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/C_Quicksort/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="COO-TD2">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/doc" key="destdir"/>
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="COO-TP6-Piscine">
-				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP6-Piscine/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
-				<item value="" key="href"/>
-			</section>
 			<section name="FRANCIS_COO">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/doc" key="destdir"/>
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="COO-TP6-Piscine">
+				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP6-Piscine/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="COO-TD2-LinkedList">
@@ -165,6 +183,11 @@
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP4-Displayer/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="COO-TP7-Facteur">
+				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/doc" key="destdir"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
 		</section>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
@@ -212,6 +235,12 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="SearchInDialog">
+		<item value="true" key="SearchInJRE"/>
+		<item value="true" key="SearchInProjects"/>
+		<item value="true" key="SearchInAppLibs"/>
+		<item value="true" key="SearchInSources"/>
+	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
 		<item value="false" key="SortOrdering"/>
@@ -222,5 +251,7 @@
 		<item value="582" key="DIALOG_HEIGHT"/>
 		<item value="491" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="CallHierarchySearchScope">
 	</section>
 </section>
