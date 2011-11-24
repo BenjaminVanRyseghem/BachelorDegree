@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
 <window height="774" maximized="true" width="1920" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -39,25 +39,35 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="parse.c" partName="parse.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/parse.c" title="parse.c" tooltip="C_Grep/src/parse.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/parse.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1051" selectionTopPixel="450"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="974" selectionTopPixel="630"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="parse.h" partName="parse.h" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/parse.h" title="parse.h" tooltip="C_Grep/src/parse.h" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/parse.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="201" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="321" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ast.c" partName="ast.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/ast.c" title="ast.c" tooltip="C_Grep/src/ast.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ast.c" partName="ast.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/ast.c" title="ast.c" tooltip="C_Grep/src/ast.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/ast.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1377" selectionTopPixel="1163"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="757" selectionTopPixel="210"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="ast.h" partName="ast.h" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/ast.h" title="ast.h" tooltip="C_Grep/src/ast.h" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/ast.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="698" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.c" partName="graph.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/graph.c" title="graph.c" tooltip="C_Grep/src/graph.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/graph.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1900" selectionTopPixel="1017"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="graph.h" partName="graph.h" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/graph.h" title="graph.h" tooltip="C_Grep/src/graph.h" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/graph.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="136" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -122,9 +132,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1311245822915">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
@@ -225,15 +233,15 @@
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29753265"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -251,7 +259,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.65451896" ratioLeft="449" ratioRight="237" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
@@ -260,7 +268,7 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -334,31 +342,22 @@
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16233255" ratioLeft="206" ratioRight="1063" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.72740525" ratioLeft="499" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="bottom" ratio="0.72740525" ratioLeft="499" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -367,8 +366,7 @@
 <page content="org.eclipse.jdt.callhierarchy.view" label="Call Hierarchy"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -378,13 +376,10 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -568,160 +563,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/parse.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/ast.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/ast.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/graph.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/graph.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/parse.h"/>
 </editors>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="533" y="0"/>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3111" y="0"/>
 </item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="603" y="0"/>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3113" y="0"/>
 </item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1850" y="0"/>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="667" y="32"/>
 </item>
-<item historyLabel="ast.c" index="1">
+<item historyLabel="ast.h" index="1">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="667" y="32"/>
+</item>
+<item historyLabel="parse.h" index="4">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="169" y="0"/>
+</item>
+<item historyLabel="ast.h" index="1">
+<position info="not_deleted" x="425" y="12"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="169" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3113" y="0"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="148" y="0"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="242" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3113" y="0"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="153" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3113" y="0"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="3512" y="26"/>
+</item>
+<item historyLabel="ast.h" index="1">
+<position info="not_deleted" x="698" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3113" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="423" y="31"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3051" y="0"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="169" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3051" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
 <position/>
 </item>
-<item historyLabel="ast.c" index="1">
+<item historyLabel="graph.c" index="2">
 <position/>
 </item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="2927" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="355" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1556" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1556" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="2557" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1412" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
+<item historyLabel="graph.c" index="2">
 <position info="not_deleted" x="966" y="0"/>
 </item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1409" y="0"/>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="672" y="15"/>
 </item>
-<item historyLabel="ast.c" index="1">
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1583" y="0"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1583" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1571" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1545" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1547" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3183" y="0"/>
+</item>
+<item historyLabel="graph.h" index="3">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="3183" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1095" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2193" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2414" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2258" y="87"/>
+</item>
+<item historyLabel="ast.c" index="0">
+<position info="not_deleted" x="757" y="24"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2258" y="87"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2508" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2514" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1974" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1975" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1795" y="0"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="1904" y="216"/>
+</item>
+<item historyLabel="graph.c" index="2">
+<position info="not_deleted" x="2193" y="0"/>
+</item>
+<item active="true" historyLabel="graph.c" index="2">
 <position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1399" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="928" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="929" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="2034" y="0"/>
-</item>
-<item historyLabel="parse.c" index="0">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="parse.c" index="0">
-<position info="not_deleted" x="581" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1321" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="135" y="5"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="parse.c" index="0">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="2914" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1903" y="0"/>
-</item>
-<item historyLabel="ast.h" index="2">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="1903" y="0"/>
-</item>
-<item historyLabel="ast.c" index="1">
-<position info="not_deleted" x="3472" y="0"/>
-</item>
-<item historyLabel="parse.c" index="0">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="parse.h" index="3">
-<position info="not_deleted" x="201" y="0"/>
-</item>
-<item active="true" historyLabel="ast.c" index="1">
-<position info="not_deleted" x="3472" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -747,6 +743,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.h" tooltip="C_Grep/src/graph.h">
+<persistable path="/C_Grep/src/graph.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.c" tooltip="C_Grep/src/graph.c">
+<persistable path="/C_Grep/src/graph.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ast.h" tooltip="C_Grep/src/ast.h">
 <persistable path="/C_Grep/src/ast.h"/>
 </file>
@@ -785,12 +787,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CellButton.java" tooltip="COO-TP3-MineSweeper/src/CellButton.java">
 <persistable path="/COO-TP3-MineSweeper/src/CellButton.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeperUI.java" tooltip="COO-TP3-MineSweeper/src/MineSweeperUI.java">
-<persistable path="/COO-TP3-MineSweeper/src/MineSweeperUI.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeper.java" tooltip="COO-TP3-MineSweeper/src/MineSweeper.java">
-<persistable path="/COO-TP3-MineSweeper/src/MineSweeper.java"/>
 </file>
 </mruList>
 </workbench>
