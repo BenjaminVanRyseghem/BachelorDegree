@@ -50,8 +50,8 @@
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="356" key="DIALOG_WIDTH"/>
 		<item value="18" key="DIALOG_Y_ORIGIN"/>
-		<item value="90" key="DIALOG_X_ORIGIN"/>
 		<item value="456" key="DIALOG_HEIGHT"/>
+		<item value="90" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="quick_assist_proposal_size">
@@ -60,8 +60,8 @@
 		<item value="0" key="index"/>
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="4" key="VisibilityModifier"/>
 		<item value="false" key="Comments"/>
+		<item value="4" key="VisibilityModifier"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -90,103 +90,103 @@
 		<section name="projects">
 			<section name="COO-TD1-Vote">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD1-Vote/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="C_qsint">
 				<item value="/Users/benjamin/Documents/Education/workspace/C_qsint/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Education/workspace/C_qsint/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/C_qsint/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="C_Quicksort">
 				<item value="/Users/benjamin/Documents/Education/workspace/C_Quicksort/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Education/workspace/C_Quicksort/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/C_Quicksort/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TD2">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="FRANCIS_COO">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/FRANCIS_COO/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP6-Piscine">
 				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP6-Piscine/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TD2-LinkedList">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2-LinkedList/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2-LinkedList/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TD2-LinkedList/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="C_TP1">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP1/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COMPIL-TP2">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL-TP2/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL-TP2/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL-TP2/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="C_TP3">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP3/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP3/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TP3/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="Sandbox">
 				<item value="/Users/benjamin/Documents/workspace/Sandbox/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/workspace/Sandbox/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/workspace/Sandbox/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP3-MineSweeper">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP3-MineSweeper/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="Test">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/Test/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/Test/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/Test/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP2-Genericity">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/doc" key="destdir"/>
+				<item value="" key="href"/>
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP2-Genericity/javadoc.xml" key="antpath"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="COMPIL_TP1">
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/javadoc.xml" key="antpath"/>
-				<item value="" key="href"/>
 			</section>
 			<section name="COO-TP1-Telephonie">
 				<item value="/Users/benjamin/Scholarship/COO/TP1-Telephonie/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP1-Telephonie/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP1-Telephonie/javadoc.xml" key="antpath"/>
+			</section>
+			<section name="COMPIL_TP1">
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/doc" key="destdir"/>
+				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COMPIL_TP1/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="C_TD1">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/C_TD1/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP5-JeuDeLOie">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP5-JeuDeLOie/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP4-Displayer">
 				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP4-Displayer/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP4-Displayer/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Scholarship/workspace/COO-TP4-Displayer/javadoc.xml" key="antpath"/>
 			</section>
 			<section name="COO-TP7-Facteur">
 				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/doc" key="destdir"/>
-				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/javadoc.xml" key="antpath"/>
 				<item value="" key="href"/>
+				<item value="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/javadoc.xml" key="antpath"/>
 			</section>
 		</section>
 	</section>
@@ -196,8 +196,19 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="254" key="DIALOG_Y_ORIGIN"/>
-			<item value="660" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="660" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-32" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -208,38 +219,27 @@
 		<item value="1" key="rootMode"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1311245822915&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
 	</section>
-	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
-		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
-		<section name="DialogBoundsSettings">
-			<item value="600" key="DIALOG_WIDTH"/>
-			<item value="-11" key="DIALOG_Y_ORIGIN"/>
-			<item value="-32" key="DIALOG_X_ORIGIN"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
-		</section>
+	<section name="completion_proposal_size">
 	</section>
 	<section name="ExtractMethodWizard">
 		<item value="false" key="ThrowRuntimeExceptions"/>
 		<item value="false" key="GenerateJavadoc"/>
 		<item value="4" key="AccessModifier"/>
 	</section>
-	<section name="completion_proposal_size">
-	</section>
 	<section name="JavaElementSearchActions">
-	</section>
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="1" key="updateSimilarElementsMatchStrategy"/>
-		<item value="false" key="updateTextualMatches"/>
-		<item value="false" key="updateSimilarElements"/>
-	</section>
-	<section name="RenameInformationPopup">
 	</section>
 	<section name="SearchInDialog">
 		<item value="true" key="SearchInJRE"/>
 		<item value="true" key="SearchInProjects"/>
 		<item value="true" key="SearchInAppLibs"/>
 		<item value="true" key="SearchInSources"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+		<item value="false" key="updateSimilarElements"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
@@ -248,8 +248,8 @@
 	<section name="JavadocWizardDialog">
 		<item value="600" key="DIALOG_WIDTH"/>
 		<item value="120" key="DIALOG_Y_ORIGIN"/>
-		<item value="582" key="DIALOG_HEIGHT"/>
 		<item value="491" key="DIALOG_X_ORIGIN"/>
+		<item value="582" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="CallHierarchySearchScope">

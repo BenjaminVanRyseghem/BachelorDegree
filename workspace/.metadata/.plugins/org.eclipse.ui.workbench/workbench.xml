@@ -16,32 +16,48 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.soyatec.uml.ClassDiagramEditor" itemType="typeToolBarContribution" x="266" y="22"/>
+<coolItem id="com.soyatec.uml.ClassDiagramEditor" itemType="typePlaceholder" x="266" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1311245822915" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1311245822915" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="DefaultEditorWorkbook">
-<info part="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<info part="org.eclipse.ui.internal.EditorStack@5b55c5eb">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.soyatec.uml.ClassDiagramEditor" name="(default package).ucd" partName="(default package).ucd" path="/Users/benjamin/Documents/Education/workspace/COO-TP7-Facteur/src/(default package).ucd" title="(default package).ucd" tooltip="UML Class Diagram - COO-TP7-Facteur/src/(default package).ucd" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COO-TP7-Facteur/src/(default package).ucd"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="parse.c" partName="parse.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/parse.c" title="parse.c" tooltip="C_Grep/src/parse.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/parse.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1051" selectionTopPixel="450"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="parse.h" partName="parse.h" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/parse.h" title="parse.h" tooltip="C_Grep/src/parse.h" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/parse.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="201" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ast.c" partName="ast.c" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/ast.c" title="ast.c" tooltip="C_Grep/src/ast.c" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/ast.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1377" selectionTopPixel="1163"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ast.h" partName="ast.h" path="/Users/benjamin/Documents/Education/workspace/C_Grep/src/ast.h" title="ast.h" tooltip="C_Grep/src/ast.h" workbook="org.eclipse.ui.internal.EditorStack@5b55c5eb">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C_Grep/src/ast.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -50,8 +66,8 @@
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
@@ -90,6 +106,7 @@
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="927"/>
@@ -99,6 +116,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1311245822915">
@@ -131,15 +151,12 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.soyatec.uml.ClassDiagramEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -192,42 +209,59 @@
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@7ba2d1c9" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7ba2d1c9" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.65451896" ratioLeft="449" ratioRight="237" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<info folder="true" part="bottom" ratio="0.65451896" ratioLeft="449" ratioRight="237" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="topRight" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -290,7 +324,6 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
@@ -298,6 +331,7 @@
 <view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.jdt.callhierarchy.view"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -322,7 +356,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16233255" ratioLeft="206" ratioRight="1063" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.66618073" ratioLeft="457" ratioRight="229" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.72740525" ratioLeft="499" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -534,181 +568,174 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/CourrierDeMillionnaire.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Ville.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/LettreDeChange.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/AccuseDeReception.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/LettreSimple.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Adresse.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Courrier.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Ville.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/LettreDeChange.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/CourrierDeMillionnaire.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/AccuseDeReception.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Adresse.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/CentreDeDistribution.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/ContenuMillionnaire.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Courrier.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Habitant.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/LettreDeChange.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/LettreSimple.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/COO-TP7-Facteur/src/Ville.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" path="/COO-TP7-Facteur/src/(default package).ucd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/parse.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/ast.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/ast.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C_Grep/src/parse.h"/>
 </editors>
-<item historyLabel="CourrierDeMillionnaire.java" index="0">
-<position info="not_deleted" x="1437" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="533" y="0"/>
 </item>
-<item historyLabel="AccuseDeReception.java" index="3">
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="603" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1850" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
 <position/>
 </item>
-<item historyLabel="LettreSimple.java" index="4">
-<position info="not_deleted" x="432" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="2">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-<item historyLabel="AccuseDeReception.java" index="3">
+<item historyLabel="ast.c" index="1">
 <position/>
 </item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1177" y="0"/>
-</item>
-<item historyLabel="LettreSimple.java" index="4">
-<position info="not_deleted" x="498" y="0"/>
-</item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1177" y="0"/>
-</item>
-<item historyLabel="AccuseDeReception.java" index="3">
+<item historyLabel="ast.c" index="1">
 <position/>
 </item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1177" y="0"/>
-</item>
-<item historyLabel="CourrierDeMillionnaire.java" index="0">
-<position info="not_deleted" x="1536" y="0"/>
-</item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1177" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="2">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-<item historyLabel="CourrierDeMillionnaire.java" index="0">
-<position info="not_deleted" x="1470" y="0"/>
-</item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1177" y="0"/>
-</item>
-<item historyLabel="Adresse.java" index="5">
-<position info="not_deleted" x="1091" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="2">
-<position info="not_deleted" x="602" y="0"/>
-</item>
-<item historyLabel="CourrierDeMillionnaire.java" index="0">
-<position info="not_deleted" x="1438" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="2">
-<position info="not_deleted" x="602" y="0"/>
-</item>
-<item historyLabel="Adresse.java" index="5">
-<position info="not_deleted" x="1091" y="0"/>
-</item>
-<item historyLabel="CourrierDeMillionnaire.java" index="0">
-<position info="not_deleted" x="1438" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="2">
-<position info="not_deleted" x="602" y="0"/>
-</item>
-<item historyLabel="LettreSimple.java" index="4">
-<position info="not_deleted" x="412" y="0"/>
-</item>
-<item historyLabel="AccuseDeReception.java" index="3">
-<position info="not_deleted" x="348" y="0"/>
-</item>
-<item historyLabel="LettreSimple.java" index="4">
-<position info="not_deleted" x="412" y="0"/>
-</item>
-<item historyLabel="Adresse.java" index="5">
-<position info="not_deleted" x="1091" y="0"/>
-</item>
-<item historyLabel="Ville.java" index="1">
-<position info="not_deleted" x="1893" y="0"/>
-</item>
-<item historyLabel="Courrier.java" index="6">
-<position info="not_deleted" x="0" y="2265"/>
-</item>
-<item historyLabel="Ville.java" index="7">
-<position info="not_deleted" x="1893" y="0"/>
-</item>
-<item historyLabel="LettreDeChange.java" index="8">
-<position info="not_deleted" x="602" y="0"/>
-</item>
-<item historyLabel="CourrierDeMillionnaire.java" index="9">
+<item historyLabel="ast.c" index="1">
 <position/>
 </item>
-<item historyLabel="AccuseDeReception.java" index="10">
+<item historyLabel="ast.c" index="1">
 <position/>
 </item>
-<item historyLabel="Adresse.java" index="11">
-<position info="not_deleted" x="126" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="AccuseDeReception.java" index="10">
-<position info="not_deleted" x="68" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="CentreDeDistribution.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="ContenuMillionnaire.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="Courrier.java" index="14">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="2927" y="0"/>
 </item>
-<item historyLabel="CourrierDeMillionnaire.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="Habitant.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1556" y="0"/>
 </item>
-<item historyLabel="LettreDeChange.java" index="16">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
 </item>
-<item historyLabel="LettreSimple.java" index="17">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1556" y="0"/>
 </item>
-<item historyLabel="Ville.java" index="18">
-<position info="not_deleted" x="0" y="3301"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="2557" y="0"/>
 </item>
-<item historyLabel="LettreSimple.java" index="17">
-<position info="not_deleted" x="660" y="0"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1412" y="0"/>
 </item>
-<item historyLabel="LettreDeChange.java" index="16">
-<position info="not_deleted" x="0" y="1205"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="966" y="0"/>
 </item>
-<item historyLabel="Habitant.java" index="15">
-<position info="not_deleted" x="0" y="1699"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1409" y="0"/>
 </item>
-<item historyLabel="CourrierDeMillionnaire.java" index="9">
-<position info="not_deleted" x="0" y="2134"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="Courrier.java" index="14">
-<position info="not_deleted" x="0" y="2265"/>
+<item historyLabel="ast.c" index="1">
+<position/>
 </item>
-<item historyLabel="ContenuMillionnaire.java" index="13">
-<position info="not_deleted" x="0" y="2262"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1399" y="0"/>
 </item>
-<item historyLabel="CentreDeDistribution.java" index="12">
-<position info="not_deleted" x="0" y="510"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="928" y="0"/>
 </item>
-<item active="true" historyLabel="(default package).ucd" index="19"/>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="929" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="2034" y="0"/>
+</item>
+<item historyLabel="parse.c" index="0">
+<position info="not_deleted" x="1051" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="parse.c" index="0">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1275" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1321" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="135" y="5"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="2914" y="0"/>
+</item>
+<item historyLabel="parse.c" index="0">
+<position info="not_deleted" x="1051" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="2914" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1903" y="0"/>
+</item>
+<item historyLabel="ast.h" index="2">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="1903" y="0"/>
+</item>
+<item historyLabel="ast.c" index="1">
+<position info="not_deleted" x="3472" y="0"/>
+</item>
+<item historyLabel="parse.c" index="0">
+<position info="not_deleted" x="1051" y="0"/>
+</item>
+<item historyLabel="parse.h" index="3">
+<position info="not_deleted" x="201" y="0"/>
+</item>
+<item active="true" historyLabel="ast.c" index="1">
+<position info="not_deleted" x="3472" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="topRight"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -720,50 +747,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" name="(default package).ucd" tooltip="COO-TP7-Facteur/src/(default package).ucd">
-<persistable path="/COO-TP7-Facteur/src/(default package).ucd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ast.h" tooltip="C_Grep/src/ast.h">
+<persistable path="/C_Grep/src/ast.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ville.java" tooltip="COO-TP7-Facteur/src/Ville.java">
-<persistable path="/COO-TP7-Facteur/src/Ville.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ast.c" tooltip="C_Grep/src/ast.c">
+<persistable path="/C_Grep/src/ast.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LettreSimple.java" tooltip="COO-TP7-Facteur/src/LettreSimple.java">
-<persistable path="/COO-TP7-Facteur/src/LettreSimple.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="parse.h" tooltip="C_Grep/src/parse.h">
+<persistable path="/C_Grep/src/parse.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LettreDeChange.java" tooltip="COO-TP7-Facteur/src/LettreDeChange.java">
-<persistable path="/COO-TP7-Facteur/src/LettreDeChange.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="C_Grep.c" tooltip="C_Grep/src/C_Grep.c">
+<persistable path="/C_Grep/src/C_Grep.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Habitant.java" tooltip="COO-TP7-Facteur/src/Habitant.java">
-<persistable path="/COO-TP7-Facteur/src/Habitant.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuestionUI.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/QuestionUI.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/QuestionUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CourrierDeMillionnaire.java" tooltip="COO-TP7-Facteur/src/CourrierDeMillionnaire.java">
-<persistable path="/COO-TP7-Facteur/src/CourrierDeMillionnaire.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NumericAnswerUI.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/NumericAnswerUI.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/NumericAnswerUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Courrier.java" tooltip="COO-TP7-Facteur/src/Courrier.java">
-<persistable path="/COO-TP7-Facteur/src/Courrier.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiItemsAnswerUI.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/MultiItemsAnswerUI.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/MultiItemsAnswerUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContenuMillionnaire.java" tooltip="COO-TP7-Facteur/src/ContenuMillionnaire.java">
-<persistable path="/COO-TP7-Facteur/src/ContenuMillionnaire.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Numerique.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/Numerique.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/Numerique.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CentreDeDistribution.java" tooltip="COO-TP7-Facteur/src/CentreDeDistribution.java">
-<persistable path="/COO-TP7-Facteur/src/CentreDeDistribution.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuestionnaireUI.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/QuestionnaireUI.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/QuestionnaireUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AccuseDeReception.java" tooltip="COO-TP7-Facteur/src/AccuseDeReception.java">
-<persistable path="/COO-TP7-Facteur/src/AccuseDeReception.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Answer.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/Answer.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/Answer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Adresse.java" tooltip="COO-TP7-Facteur/src/Adresse.java">
-<persistable path="/COO-TP7-Facteur/src/Adresse.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" name="questionnaires.ucd" tooltip="COO-TP8-Questionnaire/questionnaires.ucd">
+<persistable path="/COO-TP8-Questionnaire/questionnaires.ucd"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" name="Facteur.ucd" tooltip="COO-TP7-Facteur/Facteur.ucd">
-<persistable path="/COO-TP7-Facteur/Facteur.ucd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnswerFactory.java" tooltip="COO-TP8-Questionnaire/src/questionnaires/AnswerFactory.java">
+<persistable path="/COO-TP8-Questionnaire/src/questionnaires/AnswerFactory.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" name="Facteur.ucd" tooltip="COO-TP7-Facteur/src/Facteur.ucd">
-<persistable path="/COO-TP7-Facteur/src/Facteur.ucd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CellButton.java" tooltip="COO-TP3-MineSweeper/src/CellButton.java">
+<persistable path="/COO-TP3-MineSweeper/src/CellButton.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.soyatec.uml.ClassDiagramEditor" name="(default package).ucd" tooltip="COO-TP7-Facteur/(default package).ucd">
-<persistable path="/COO-TP7-Facteur/(default package).ucd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeperUI.java" tooltip="COO-TP3-MineSweeper/src/MineSweeperUI.java">
+<persistable path="/COO-TP3-MineSweeper/src/MineSweeperUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LancerGeneration.java" tooltip="COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java">
-<persistable path="/COMPIL_TP1/planningMaster/planningMaster/LancerGeneration.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineSweeper.java" tooltip="COO-TP3-MineSweeper/src/MineSweeper.java">
+<persistable path="/COO-TP3-MineSweeper/src/MineSweeper.java"/>
 </file>
 </mruList>
 </workbench>
